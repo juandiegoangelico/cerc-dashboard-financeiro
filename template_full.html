@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Financeiro — CERC</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#161d2e; --panel2:#1c2438; --border:#2a3448;
+    --text:#e7ecf5; --muted:#93a1bd; --accent:#4f8cff; --green:#33c481;
+    --red:#ff6161; --amber:#ffb648; --purple:#a78bfa;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(180deg,#0b0f18,#0f1420 400px); color:var(--text);
+  }
+  .wrap{max-width:1360px;margin:0 auto;padding:20px 20px 60px;}
+  header.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;
+    padding:22px 0 18px;border-bottom:1px solid var(--border);margin-bottom:22px;}
+  header.top h1{font-size:22px;margin:0 0 4px;font-weight:700;letter-spacing:.2px;}
+  header.top .sub{color:var(--muted);font-size:13.5px;line-height:1.5;}
+  .badge{display:inline-block;padding:2px 9px;border-radius:20px;background:#20304a;color:#8fb4ff;
+    font-size:11.5px;font-weight:600;margin-left:8px;vertical-align:middle;}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+  select{background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:8px;
+    padding:8px 12px;font-size:13.5px;font-family:inherit;cursor:pointer;}
+  select:focus{outline:2px solid var(--accent);}
+  .nav-btn{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:8px;
+    padding:8px 12px;font-size:13px;cursor:pointer;font-family:inherit;}
+  .nav-btn:hover{background:var(--accent);border-color:var(--accent);}
+  .nav-btn:disabled{opacity:.35;cursor:not-allowed;background:var(--panel2);border-color:var(--border);}
+  .kpi .cmp{font-size:11.5px;margin-top:4px;font-weight:600;}
+  .kpi .cmp.up{color:var(--green);} .kpi .cmp.down{color:var(--red);} .kpi .cmp.flat{color:var(--muted);}
+  #tableMensal tbody tr.current-month{background:#20304a;}
+  #tableMensal tbody tr.current-month td{font-weight:600;}
+  .kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-bottom:20px;}
+  .kpi{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px 18px;position:relative;overflow:hidden;}
+  .kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);}
+  .kpi.green::before{background:var(--green);} .kpi.red::before{background:var(--red);}
+  .kpi.amber::before{background:var(--amber);} .kpi.purple::before{background:var(--purple);}
+  .kpi .label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;}
+  .kpi .value{font-size:23px;font-weight:700;}
+  .kpi .value.green{color:var(--green);} .kpi .value.red{color:var(--red);}
+  .kpi .sub{color:var(--muted);font-size:12px;margin-top:5px;}
+  .grid2{display:grid;grid-template-columns:1.6fr 1fr;gap:16px;margin-bottom:16px;}
+  .grid2b{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
+  @media(max-width:900px){.grid2,.grid2b{grid-template-columns:1fr;}}
+  .panel{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px 20px;}
+  .panel h3{margin:0 0 3px;font-size:15px;font-weight:700;}
+  .panel .desc{color:var(--muted);font-size:12px;margin-bottom:14px;}
+  .chartbox{position:relative;height:300px;}
+  .chartbox.tall{height:380px;}
+  .chartbox.short{height:230px;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  thead th{text-align:left;color:var(--muted);font-weight:600;font-size:11.5px;text-transform:uppercase;
+    letter-spacing:.4px;padding:8px 10px;border-bottom:1px solid var(--border);cursor:pointer;user-select:none;position:sticky;top:0;background:var(--panel);}
+  thead th:hover{color:var(--text);}
+  thead th.num,td.num{text-align:right;}
+  tbody td{padding:8px 10px;border-bottom:1px solid #1e2637;}
+  tbody tr:hover{background:#1a2233;}
+  .tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:11px;background:#20304a;color:#9db8ea;white-space:nowrap;}
+  .table-scroll{max-height:420px;overflow-y:auto;border-radius:8px;}
+  .tabs{display:flex;gap:6px;margin-bottom:14px;}
+  .tab-btn{background:var(--panel2);border:1px solid var(--border);color:var(--muted);padding:7px 14px;
+    border-radius:8px;font-size:13px;cursor:pointer;font-family:inherit;font-weight:600;}
+  .tab-btn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+  .tab-panel{display:none;} .tab-panel.active{display:block;}
+  .search{width:100%;padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--panel2);
+    color:var(--text);font-size:13px;margin-bottom:10px;font-family:inherit;}
+  footer{margin-top:30px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:12px;line-height:1.7;}
+  footer b{color:#b9c4dc;}
+  .alert{background:#241c14;border:1px solid #47341c;color:#e8c481;border-radius:10px;padding:12px 16px;font-size:12.5px;
+    margin-bottom:18px;line-height:1.6;}
+  .alert b{color:#ffd485;}
+  .grow-up{color:var(--green);} .grow-down{color:var(--red);}
+  .missing-months{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;}
+  .missing-months span{background:#2a1c1c;color:#ff9d9d;padding:2px 8px;border-radius:6px;font-size:11px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <h1>Dashboard Financeiro — CERC <span class="badge">Conselho Fiscal</span></h1>
+      <div class="sub">Período analisado: __PERIODO_INICIO__ a __PERIODO_FIM__ &nbsp;·&nbsp; __MESES_COM_DADOS__ meses com demonstrativo &nbsp;·&nbsp; Preparado para o Conselho Fiscal</div>
+    </div>
+    <div class="controls">
+      <select id="yearFilter"></select>
+      <button class="nav-btn" id="prevMonthBtn" title="Mês anterior">◀</button>
+      <select id="monthFilter"></select>
+      <button class="nav-btn" id="nextMonthBtn" title="Próximo mês">▶</button>
+    </div>
+  </header>
+
+  <div class="alert">
+    <b>Nota de integridade dos dados:</b> os valores abaixo foram reconstruídos lançamento-a-lançamento a partir dos demonstrativos mensais originais.
+    As Despesas e Receitas batem exatamente com o total oficial de cada demonstrativo processado até agora.
+    As Receitas não têm campo oficial de conferência mensal em todos os demonstrativos de origem; onde ausente, o valor usado é a soma direta de todos os lançamentos de receita.
+    <span id="missingMonthsWrap">Meses <b>sem demonstrativo</b> (não incluídos nesta análise): <span class="missing-months" id="missingMonths"></span></span>
+  </div>
+
+  <section class="kpi-row" id="kpiRow"></section>
+
+  <div class="grid2">
+    <div class="panel">
+      <h3>Evolução Mensal — Receitas x Despesas</h3>
+      <div class="desc">Linha de saldo (eixo direito) mostra o caixa acumulado (Caixa + Bancos) ao final de cada mês.</div>
+      <div class="chartbox tall"><canvas id="chartMensal"></canvas></div>
+    </div>
+    <div class="panel">
+      <h3>Consolidado Anual</h3>
+      <div class="desc">Anos incompletos (menos de 12 meses com dados) marcados com *.</div>
+      <div class="chartbox tall"><canvas id="chartAnual"></canvas></div>
+    </div>
+  </div>
+
+  <div class="grid2b">
+    <div class="panel">
+      <h3>Despesas por Categoria</h3>
+      <div class="desc">Total acumulado no período analisado (R$ __TOTAL_DESPESAS__)</div>
+      <div class="chartbox"><canvas id="chartDespCat"></canvas></div>
+    </div>
+    <div class="panel">
+      <h3>Receitas por Categoria</h3>
+      <div class="desc">Total acumulado no período analisado (R$ __TOTAL_RECEITAS__)</div>
+      <div class="chartbox"><canvas id="chartRecCat"></canvas></div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-bottom:16px;">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="desp">Detalhe de Despesas</button>
+      <button class="tab-btn" data-tab="rec">Detalhe de Receitas</button>
+    </div>
+
+    <div class="tab-panel active" id="tab-desp">
+      <input class="search" id="searchDesp" placeholder="Buscar subcategoria de despesa...">
+      <div class="table-scroll">
+        <table id="tableDesp">
+          <thead><tr>
+            <th data-sort="nome">Subcategoria</th>
+            <th data-sort="categoria">Categoria</th>
+            <th class="num" data-sort="total">Total (R$)</th>
+            <th class="num" data-sort="pct">% do Total</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="tab-rec">
+      <input class="search" id="searchRec" placeholder="Buscar subcategoria de receita...">
+      <div class="table-scroll">
+        <table id="tableRec">
+          <thead><tr>
+            <th data-sort="nome">Subcategoria</th>
+            <th data-sort="categoria">Categoria</th>
+            <th class="num" data-sort="total">Total (R$)</th>
+            <th class="num" data-sort="pct">% do Total</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>Série Mensal Completa</h3>
+    <div class="desc">Saldo anterior, receitas, despesas e saldo atual mês a mês. Clique nos cabeçalhos para ordenar.</div>
+    <div class="table-scroll">
+      <table id="tableMensal">
+        <thead><tr>
+          <th data-sort="competencia">Competência</th>
+          <th class="num" data-sort="saldo_anterior">Saldo Anterior</th>
+          <th class="num" data-sort="receitas">Receitas</th>
+          <th class="num" data-sort="despesas">Despesas</th>
+          <th class="num" data-sort="saldo_atual">Saldo Atual</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <b>Metodologia:</b> __METODO__<br>
+    <b>Despesas:</b> __NOTA_DESPESAS__<br>
+    <b>Receitas:</b> __NOTA_RECEITAS__<br>
+    Fonte: demonstrativos mensais originais processados (Google Drive) e planilha de lançamentos detalhados. Dashboard gerado em __GERADO_EM__ para uso do Conselho Fiscal do CERC.
+  </footer>
+
+</div>
+
+</body>
+</html>
