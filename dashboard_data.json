@@ -4,12 +4,8 @@
   "periodo": {
     "inicio": "06/2015",
     "fim": "04/2026",
-    "meses_com_dados": 128,
-    "meses_faltantes": [
-      "02/2016",
-      "07/2016",
-      "09/2024"
-    ]
+    "meses_com_dados": 131,
+    "meses_faltantes": []
   },
   "mensal": [
     {
@@ -69,6 +65,13 @@
       "saldo_atual": 11211.15
     },
     {
+      "competencia": "02/2016",
+      "saldo_anterior": 13496.59,
+      "despesas": 9143.78,
+      "receitas": 6858.34,
+      "saldo_atual": 11211.15
+    },
+    {
       "competencia": "03/2016",
       "saldo_anterior": 11211.15,
       "despesas": 8024.7,
@@ -94,6 +97,13 @@
       "saldo_anterior": 12359.23,
       "despesas": 8756.38,
       "receitas": 8418.36,
+      "saldo_atual": 11856.99
+    },
+    {
+      "competencia": "07/2016",
+      "saldo_anterior": 12021.21,
+      "despesas": 7230.7,
+      "receitas": 7066.48,
       "saldo_atual": 11856.99
     },
     {
@@ -776,6 +786,13 @@
       "saldo_atual": 17755.82
     },
     {
+      "competencia": "09/2024",
+      "saldo_anterior": 18607.17,
+      "despesas": 23219.12,
+      "receitas": 22367.77,
+      "saldo_atual": 17755.82
+    },
+    {
       "competencia": "10/2024",
       "saldo_anterior": 17755.82,
       "despesas": 25890.45,
@@ -918,11 +935,11 @@
       "completo": false
     },
     "2016": {
-      "receitas": 84602.09,
-      "despesas": 93634.08,
-      "meses": 10,
-      "saldo": -9031.99,
-      "completo": false
+      "receitas": 98526.91,
+      "despesas": 110008.56,
+      "meses": 12,
+      "saldo": -11481.65,
+      "completo": true
     },
     "2017": {
       "receitas": 127215.88,
@@ -974,11 +991,11 @@
       "completo": true
     },
     "2024": {
-      "receitas": 310953.38,
-      "despesas": 345483.67,
-      "meses": 11,
-      "saldo": -34530.29,
-      "completo": false
+      "receitas": 333321.15,
+      "despesas": 368702.79,
+      "meses": 12,
+      "saldo": -35381.64,
+      "completo": true
     },
     "2025": {
       "receitas": 424738.88,
@@ -996,72 +1013,72 @@
     }
   },
   "despesas": {
-    "total": 2285789.5,
+    "total": 2325383.1,
     "categorias": {
-      "Limpeza e Jardinagem (contrato fixo)": 625519.6,
-      "Utilidades e Concessionárias": 268954.31,
-      "Manutenção": 257337.29,
-      "Serviços de Terceiros (avulsos)": 244982.2,
-      "Reformas e Melhorias": 233890.77,
-      "Honorários": 226271.19,
-      "Outras Despesas": 128433.77,
-      "Encargos Sociais (INSS)": 96251.86,
-      "Aquisições": 71190.05,
-      "Encargos Sociais e Impostos": 61923.54,
-      "Impostos e Taxas": 44505.65,
-      "Despesas Financeiras": 26037.08,
+      "Limpeza e Jardinagem (contrato fixo)": 638580.67,
+      "Utilidades e Concessionárias": 276666.15,
+      "Manutenção": 259656.31,
+      "Serviços de Terceiros (avulsos)": 245412.2,
+      "Reformas e Melhorias": 235367.7,
+      "Honorários": 230496.09,
+      "Outras Despesas": 130468.77,
+      "Encargos Sociais (INSS)": 97690.71,
+      "Aquisições": 75390.05,
+      "Encargos Sociais e Impostos": 63879.59,
+      "Impostos e Taxas": 44819.92,
+      "Despesas Financeiras": 26462.75,
       "Multas e Juros de Atraso": 492.19
     },
     "subcategorias": [
       {
         "nome": "Serviços de Limpeza e Jardinagem",
         "categoria": "Limpeza e Jardinagem (contrato fixo)",
-        "total": 592409.77
+        "total": 605470.84
       },
       {
         "nome": "Reforma e Melhoria",
         "categoria": "Reformas e Melhorias",
-        "total": 198917.67
+        "total": 200394.6
       },
       {
         "nome": "Honorários Síndico",
         "categoria": "Honorários",
-        "total": 135848.53
+        "total": 138673.21
       },
       {
         "nome": "Fornecimento de Água",
         "categoria": "Utilidades e Concessionárias",
-        "total": 130291.63
+        "total": 133013.91
       },
       {
         "nome": "Serviços Prestados",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 113865.2
+        "total": 113965.2
       },
       {
         "nome": "com Gás",
         "categoria": "Outras Despesas",
-        "total": 108093.07
+        "total": 109979.07
       },
       {
         "nome": "Manutenção Estação Tratamento de Efluentes (ETE)",
         "categoria": "Manutenção",
-        "total": 98365.28
+        "total": 99316.63
       },
       {
         "nome": "Fornecimento de Energia Elétrica",
         "categoria": "Utilidades e Concessionárias",
-        "total": 67577.96
+        "total": 69182.96
       },
       {
         "nome": "DARF DCTFWeb (INSS/IRRF/PIS/COFINS/CSLL)",
         "categoria": "Encargos Sociais e Impostos",
-        "total": 47723.55
+        "total": 49244.98
       },
       {
         "nome": "Honorário Gestão Administrativa",
         "categoria": "Honorários",
-        "total": 43523.35
+        "total": 44161.57
       },
       {
         "nome": "Serviços de Limpeza Caixa de Gordura/Fossa",
@@ -1071,32 +1088,32 @@
       {
         "nome": "Manutenção do(s) Elevador(es)",
         "categoria": "Manutenção",
-        "total": 43240.39
+        "total": 43987.92
       },
       {
         "nome": "INSS (S/notas fiscais)",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 39929.28
+        "total": 40822.53
       },
       {
         "nome": "Aquisição Tampa em Aço Galvanizado",
         "categoria": "Aquisições",
-        "total": 34700.83
+        "total": 37200.83
       },
       {
         "nome": "Manutenção do(s) Edifício(s)",
         "categoria": "Manutenção",
-        "total": 31821.0
+        "total": 32080.6
       },
       {
         "nome": "ISS",
         "categoria": "Impostos e Taxas",
-        "total": 30138.56
+        "total": 30452.83
       },
       {
         "nome": "Manutenção do(s)Elevador(es)/Peças/Reparos",
         "categoria": "Manutenção",
-        "total": 29612.23
+        "total": 29972.77
       },
       {
         "nome": "Orcali (vigilância)",
@@ -1106,7 +1123,7 @@
       {
         "nome": "Seguro",
         "categoria": "Utilidades e Concessionárias",
-        "total": 24056.4
+        "total": 25635.78
       },
       {
         "nome": "Serviços de Engenharia",
@@ -1126,7 +1143,7 @@
       {
         "nome": "Honorários Contábeis",
         "categoria": "Honorários",
-        "total": 23670.72
+        "total": 24432.72
       },
       {
         "nome": "INSS (S/folha pagto )",
@@ -1136,7 +1153,7 @@
       {
         "nome": "ISS (Impostos s/ Serviço)",
         "categoria": "Encargos Sociais e Impostos",
-        "total": 14199.99
+        "total": 14634.61
       },
       {
         "nome": "Honorários Advocaticios",
@@ -1156,17 +1173,17 @@
       {
         "nome": "Material de Limpeza",
         "categoria": "Utilidades e Concessionárias",
-        "total": 11871.56
+        "total": 12519.65
       },
       {
         "nome": "Tarifa Cobrança",
         "categoria": "Despesas Financeiras",
-        "total": 11253.69
+        "total": 11587.72
       },
       {
         "nome": "Material de Expediente",
         "categoria": "Utilidades e Concessionárias",
-        "total": 9713.5
+        "total": 9904.59
       },
       {
         "nome": "Manutenção do Interfone",
@@ -1176,7 +1193,7 @@
       {
         "nome": "Tarifa Bancária",
         "categoria": "Despesas Financeiras",
-        "total": 9058.69
+        "total": 9141.99
       },
       {
         "nome": "Serviços Elétricos",
@@ -1256,7 +1273,7 @@
       {
         "nome": "Aquisição de Portão",
         "categoria": "Aquisições",
-        "total": 5100.0
+        "total": 6800.0
       },
       {
         "nome": "com Pintura",
@@ -1276,7 +1293,7 @@
       {
         "nome": "Serviços de Assessoria Remota",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 4060.0
+        "total": 4390.0
       },
       {
         "nome": "Obra Emergencial",
@@ -1326,7 +1343,7 @@
       {
         "nome": "Desconto/Devolução",
         "categoria": "Outras Despesas",
-        "total": 2485.64
+        "total": 2535.64
       },
       {
         "nome": "Bancárias",
@@ -1406,7 +1423,7 @@
       {
         "nome": "Imposto de Renda (S/Aplicação)",
         "categoria": "Despesas Financeiras",
-        "total": 1809.33
+        "total": 1817.67
       },
       {
         "nome": "Manutencao de Bombas",
@@ -1416,7 +1433,7 @@
       {
         "nome": "com Cartório",
         "categoria": "Outras Despesas",
-        "total": 1583.59
+        "total": 1650.39
       },
       {
         "nome": "Parcelamento Divida Ativa",
@@ -1526,7 +1543,7 @@
       {
         "nome": "Material para Jardim",
         "categoria": "Utilidades e Concessionárias",
-        "total": 1182.71
+        "total": 2148.71
       },
       {
         "nome": "Serviços de Chaveiro",
@@ -1621,7 +1638,7 @@
       {
         "nome": "Correio",
         "categoria": "Outras Despesas",
-        "total": 275.8
+        "total": 287.0
       },
       {
         "nome": "Custas Judiciais",
@@ -1696,7 +1713,7 @@
       {
         "nome": "INSS (S/folha pagto)",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 2426.68
+        "total": 2972.28
       },
       {
         "nome": "Despesas com Água",
@@ -1711,7 +1728,7 @@
       {
         "nome": "Despesas com Correio",
         "categoria": "Outras Despesas",
-        "total": 11.9
+        "total": 32.9
       }
     ],
     "categoria_por_mes": {
@@ -1805,7 +1822,9 @@
         "10/2023": 1134.17,
         "11/2023": 1134.17,
         "12/2023": 1326.67,
-        "01/2024": 1134.17
+        "01/2024": 1134.17,
+        "02/2016": 695.14,
+        "07/2016": 743.71
       },
       "Honorários": {
         "12/2016": 1634.96,
@@ -1925,7 +1944,10 @@
         "02/2026": 2897.99,
         "03/2026": 2870.5299999999997,
         "04/2026": 5031.28,
-        "04/2020": 930.05
+        "04/2020": 930.05,
+        "02/2016": 1165.0,
+        "07/2016": 1165.0,
+        "09/2024": 1894.9
       },
       "Utilidades e Concessionárias": {
         "12/2016": 1165.51,
@@ -2045,7 +2067,10 @@
         "02/2022": 1428.3999999999999,
         "06/2024": 1721.57,
         "02/2026": 1453.83,
-        "04/2020": 1291.48
+        "04/2020": 1291.48,
+        "02/2016": 1296.5,
+        "07/2016": 1194.72,
+        "09/2024": 5220.62
       },
       "Impostos e Taxas": {
         "12/2016": 179.68,
@@ -2138,7 +2163,9 @@
         "06/2024": 8.0,
         "08/2024": 5875.84,
         "11/2024": 99.64,
-        "07/2025": 103.03
+        "07/2025": 103.03,
+        "02/2016": 148.59,
+        "07/2016": 165.68
       },
       "Manutenção": {
         "12/2016": 730.0,
@@ -2255,7 +2282,9 @@
         "12/2021": 1981.0,
         "01/2016": 462.25,
         "04/2020": 2163.02,
-        "09/2023": 1514.18
+        "09/2023": 1514.18,
+        "02/2016": 320.0,
+        "09/2024": 1999.02
       },
       "Limpeza e Jardinagem (contrato fixo)": {
         "12/2016": 3644.47,
@@ -2374,7 +2403,10 @@
         "03/2026": 7213.64,
         "04/2026": 7213.64,
         "04/2020": 4445.47,
-        "09/2023": 28664.359999999997
+        "09/2023": 28664.359999999997,
+        "02/2016": 3644.49,
+        "07/2016": 3644.49,
+        "09/2024": 5772.09
       },
       "Outras Despesas": {
         "12/2016": 11.9,
@@ -2485,7 +2517,10 @@
         "03/2025": 40.5,
         "12/2023": 235.0,
         "12/2024": 1320.78,
-        "12/2025": 430.0
+        "12/2025": 430.0,
+        "02/2016": 61.2,
+        "07/2016": 87.8,
+        "09/2024": 1886.0
       },
       "Despesas Financeiras": {
         "12/2016": 176.38,
@@ -2605,7 +2640,10 @@
         "07/2025": 93.4,
         "02/2026": 2.97,
         "03/2026": 2.98,
-        "04/2020": 49.0
+        "04/2020": 49.0,
+        "02/2016": 112.86,
+        "07/2016": 129.3,
+        "09/2024": 183.51
       },
       "Multas e Juros de Atraso": {
         "12/2016": 0.43,
@@ -2658,7 +2696,9 @@
         "12/2024": 6200.0,
         "01/2025": 3700.0,
         "02/2025": 3700.0,
-        "03/2025": 3700.0
+        "03/2025": 3700.0,
+        "02/2016": 1700.0,
+        "09/2024": 2500.0
       },
       "Serviços de Terceiros (avulsos)": {
         "01/2016": 700.0,
@@ -2739,7 +2779,9 @@
         "07/2022": 3780.0,
         "12/2023": 2581.0,
         "06/2025": 330.0,
-        "12/2025": 2100.0
+        "12/2025": 2100.0,
+        "07/2016": 100.0,
+        "09/2024": 330.0
       },
       "Reformas e Melhorias": {
         "10/2020": 5600.0,
@@ -2767,7 +2809,8 @@
         "12/2025": 6318.0,
         "02/2025": 360.0,
         "07/2025": 3300.0,
-        "11/2025": 7900.0
+        "11/2025": 7900.0,
+        "09/2024": 1476.93
       },
       "Encargos Sociais e Impostos": {
         "02/2024": 2246.1,
@@ -2791,32 +2834,33 @@
         "10/2025": 2512.2,
         "11/2025": 4188.62,
         "01/2026": 3025.56,
-        "04/2026": 6848.57
+        "04/2026": 6848.57,
+        "09/2024": 1956.05
       }
     }
   },
   "receitas": {
-    "total": 2251870.16,
+    "total": 2288162.75,
     "categorias": {
-      "Receita Ordinária de Condomínio": 1949265.33,
-      "Outras Receitas (Rateios/Extraordinárias)": 301732.4,
+      "Receita Ordinária de Condomínio": 1980151.9,
+      "Outras Receitas (Rateios/Extraordinárias)": 307138.42,
       "Ressarcimentos e Receitas Diversas": 872.43
     },
     "subcategorias": [
       {
         "nome": "Taxa de Condomínio",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 1190422.21
+        "total": 1210508.53
       },
       {
         "nome": "Garagem",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 198964.26
+        "total": 202530.49
       },
       {
         "nome": "Água",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 154474.34
+        "total": 157003.8
       },
       {
         "nome": "Rateio AGE 27/08/24",
@@ -2826,12 +2870,12 @@
       {
         "nome": "Fundo de Reserva",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 130279.85
+        "total": 132645.04
       },
       {
         "nome": "Gás",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 112286.74
+        "total": 114589.1
       },
       {
         "nome": "Rateio Pintura",
@@ -2851,7 +2895,7 @@
       {
         "nome": "Rateio cfe AGE - 08/06/2024",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 29755.66
+        "total": 34999.86
       },
       {
         "nome": "Rateio cfe AGO (09/07/22)",
@@ -2906,12 +2950,12 @@
       {
         "nome": "Juros Aplicação",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 7824.27
+        "total": 7934.99
       },
       {
         "nome": "Multas",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 6386.87
+        "total": 6423.88
       },
       {
         "nome": "Conserto Elevador",
@@ -2921,7 +2965,7 @@
       {
         "nome": "Salão de Festa - Uso",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 2600.0
+        "total": 2650.0
       },
       {
         "nome": "Juros",
@@ -2931,7 +2975,7 @@
       {
         "nome": "Juros Poupança (4029-0)",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 1613.56
+        "total": 1614.66
       },
       {
         "nome": "Diferença Fornecimento de Água",
