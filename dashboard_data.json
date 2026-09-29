@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-19",
+  "gerado_em": "2026-09-28",
   "condominio": "CERC (nome anonimizado)",
   "periodo": {
     "inicio": "06/2015",
@@ -62,7 +62,7 @@
       "saldo_anterior": 17035.65,
       "despesas": 10752.2,
       "receitas": 7213.14,
-      "saldo_atual": 11211.15
+      "saldo_atual": 13496.59
     },
     {
       "competencia": "02/2016",
@@ -97,7 +97,7 @@
       "saldo_anterior": 12359.23,
       "despesas": 8756.38,
       "receitas": 8418.36,
-      "saldo_atual": 11856.99
+      "saldo_atual": 12021.21
     },
     {
       "competencia": "07/2016",
@@ -418,7 +418,7 @@
       "competencia": "04/2020",
       "saldo_anterior": 42301.57,
       "despesas": 12314.4,
-      "receitas": 0.0,
+      "receitas": 12194.86,
       "saldo_atual": 42182.03
     },
     {
@@ -783,7 +783,7 @@
       "saldo_anterior": 26169.99,
       "despesas": 33001.87,
       "receitas": 25439.05,
-      "saldo_atual": 17755.82
+      "saldo_atual": 18607.17
     },
     {
       "competencia": "09/2024",
@@ -866,7 +866,7 @@
       "competencia": "08/2025",
       "saldo_anterior": -9706.16,
       "despesas": 25699.29,
-      "receitas": 33711.73,
+      "receitas": 35511.73,
       "saldo_atual": 106.28
     },
     {
@@ -963,10 +963,10 @@
       "completo": true
     },
     "2020": {
-      "receitas": 177180.24,
+      "receitas": 189375.1,
       "despesas": 166440.63,
       "meses": 12,
-      "saldo": 10739.61,
+      "saldo": 22934.47,
       "completo": true
     },
     "2021": {
@@ -998,10 +998,10 @@
       "completo": true
     },
     "2025": {
-      "receitas": 424738.88,
+      "receitas": 426538.88,
       "despesas": 401248.86,
       "meses": 12,
-      "saldo": 23490.02,
+      "saldo": 25290.02,
       "completo": true
     },
     "2026": {
@@ -1033,1276 +1033,1485 @@
       {
         "nome": "Serviços de Limpeza e Jardinagem",
         "categoria": "Limpeza e Jardinagem (contrato fixo)",
-        "total": 605470.84
+        "total": 605470.84,
+        "por_ano": {
+          "2015": 22888.32,
+          "2016": 43357.98,
+          "2017": 45984.0,
+          "2018": 47960.55,
+          "2019": 50360.74,
+          "2020": 53107.97,
+          "2021": 51535.26,
+          "2022": 59681.77,
+          "2023": 62084.94,
+          "2024": 69796.84,
+          "2025": 75487.23,
+          "2026": 27670.71
+        }
       },
       {
         "nome": "Reforma e Melhoria",
         "categoria": "Reformas e Melhorias",
-        "total": 200394.6
+        "total": 200394.6,
+        "por_ano": {
+          "2020": 5600.0,
+          "2021": 8194.0,
+          "2022": 60800.0,
+          "2024": 76944.91,
+          "2025": 48855.69
+        }
       },
       {
         "nome": "Honorários Síndico",
         "categoria": "Honorários",
-        "total": 138673.21
+        "total": 138673.21,
+        "por_ano": {
+          "2015": 4910.0,
+          "2016": 9312.0,
+          "2017": 9934.0,
+          "2018": 10041.1,
+          "2019": 10619.48,
+          "2020": 11113.43,
+          "2021": 11699.0,
+          "2022": 12831.76,
+          "2023": 14608.58,
+          "2024": 14998.28,
+          "2025": 18849.94,
+          "2026": 10685.69
+        }
       },
       {
         "nome": "Fornecimento de Água",
         "categoria": "Utilidades e Concessionárias",
-        "total": 133013.91
+        "total": 133013.91,
+        "por_ano": {
+          "2015": 4794.8,
+          "2016": 8899.02,
+          "2017": 9806.61,
+          "2018": 10236.6,
+          "2019": 11222.13,
+          "2020": 9742.4,
+          "2021": 12313.65,
+          "2022": 12013.22,
+          "2023": 17398.08,
+          "2024": 14081.94,
+          "2025": 17197.26,
+          "2026": 5308.2
+        }
       },
       {
         "nome": "Serviços Prestados",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 113965.2
+        "total": 113965.2,
+        "por_ano": {
+          "2015": 893.3,
+          "2016": 860.0,
+          "2017": 200.0,
+          "2018": 39000.0,
+          "2019": 16572.5,
+          "2020": 2969.8,
+          "2021": 1995.0,
+          "2022": 8655.0,
+          "2023": 1313.15,
+          "2024": 4810.1,
+          "2025": 20886.15,
+          "2026": 17080.0
+        }
       },
       {
         "nome": "com Gás",
         "categoria": "Outras Despesas",
-        "total": 109979.07
+        "total": 109979.07,
+        "por_ano": {
+          "2015": 2248.34,
+          "2016": 6103.31,
+          "2017": 8127.91,
+          "2018": 9354.82,
+          "2019": 12102.83,
+          "2020": 12733.06,
+          "2021": 10259.49,
+          "2022": 10253.03,
+          "2023": 10891.12,
+          "2024": 12577.7,
+          "2025": 12791.34,
+          "2026": 2536.12
+        }
       },
       {
         "nome": "Manutenção Estação Tratamento de Efluentes (ETE)",
         "categoria": "Manutenção",
-        "total": 99316.63
+        "total": 99316.63,
+        "por_ano": {
+          "2016": 2750.0,
+          "2017": 5850.0,
+          "2018": 5158.99,
+          "2019": 4986.85,
+          "2020": 4753.93,
+          "2021": 5452.01,
+          "2022": 6355.57,
+          "2023": 7057.48,
+          "2024": 16973.7,
+          "2025": 34811.06,
+          "2026": 5167.04
+        }
       },
       {
         "nome": "Fornecimento de Energia Elétrica",
         "categoria": "Utilidades e Concessionárias",
-        "total": 69182.96
+        "total": 69182.96,
+        "por_ano": {
+          "2015": 3158.21,
+          "2016": 5122.76,
+          "2017": 4381.93,
+          "2018": 5234.35,
+          "2019": 5665.09,
+          "2020": 6290.52,
+          "2021": 5860.67,
+          "2022": 7226.0,
+          "2023": 7195.0,
+          "2024": 8741.36,
+          "2025": 8582.95,
+          "2026": 3015.6
+        }
       },
       {
         "nome": "DARF DCTFWeb (INSS/IRRF/PIS/COFINS/CSLL)",
         "categoria": "Encargos Sociais e Impostos",
-        "total": 49244.98
+        "total": 49244.98,
+        "por_ano": {
+          "2024": 17161.77,
+          "2025": 23853.19,
+          "2026": 8230.02
+        }
       },
       {
         "nome": "Honorário Gestão Administrativa",
         "categoria": "Honorários",
-        "total": 44161.57
+        "total": 44161.57,
+        "por_ano": {
+          "2020": 5858.55,
+          "2021": 6142.89,
+          "2022": 6544.65,
+          "2023": 6602.66,
+          "2024": 7792.08,
+          "2025": 8346.15,
+          "2026": 2874.59
+        }
       },
       {
         "nome": "Serviços de Limpeza Caixa de Gordura/Fossa",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 41827.63
+        "total": 41827.63,
+        "por_ano": {
+          "2021": 2246.76,
+          "2022": 6357.81,
+          "2023": 5501.21,
+          "2024": 15480.0,
+          "2025": 9231.4,
+          "2026": 3010.45
+        }
       },
       {
         "nome": "Manutenção do(s) Elevador(es)",
         "categoria": "Manutenção",
-        "total": 43987.92
+        "total": 43987.92,
+        "por_ano": {
+          "2015": 2304.9,
+          "2016": 3000.0,
+          "2017": 3232.25,
+          "2018": 3339.35,
+          "2019": 2672.88,
+          "2020": 4236.81,
+          "2021": 3666.86,
+          "2022": 5004.39,
+          "2023": 4512.09,
+          "2024": 5008.98,
+          "2025": 5224.21,
+          "2026": 1785.2
+        }
       },
       {
         "nome": "INSS (S/notas fiscais)",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 40822.53
+        "total": 40822.53,
+        "por_ano": {
+          "2015": 2956.39,
+          "2016": 5553.81,
+          "2017": 5929.83,
+          "2018": 6203.43,
+          "2019": 6522.03,
+          "2020": 6942.96,
+          "2021": 6714.08
+        }
       },
       {
         "nome": "Aquisição Tampa em Aço Galvanizado",
         "categoria": "Aquisições",
-        "total": 37200.83
+        "total": 37200.83,
+        "por_ano": {
+          "2024": 26100.83,
+          "2025": 11100.0
+        }
       },
       {
         "nome": "Manutenção do(s) Edifício(s)",
         "categoria": "Manutenção",
-        "total": 32080.6
+        "total": 32080.6,
+        "por_ano": {
+          "2015": 1107.2,
+          "2016": 1635.2,
+          "2017": 3367.85,
+          "2018": 1922.0,
+          "2019": 7559.9,
+          "2020": 4005.03,
+          "2021": 2961.45,
+          "2022": 2520.35,
+          "2023": 1511.95,
+          "2024": 4462.4,
+          "2025": 2117.49,
+          "2026": 1072.8
+        }
       },
       {
         "nome": "ISS",
         "categoria": "Impostos e Taxas",
-        "total": 30452.83
+        "total": 30452.83,
+        "por_ano": {
+          "2015": 1032.08,
+          "2016": 2056.63,
+          "2017": 2460.1,
+          "2018": 3120.67,
+          "2019": 4670.15,
+          "2020": 3330.15,
+          "2021": 3813.48,
+          "2022": 4745.48,
+          "2023": 4773.08,
+          "2024": 451.01
+        }
       },
       {
         "nome": "Manutenção do(s)Elevador(es)/Peças/Reparos",
         "categoria": "Manutenção",
-        "total": 29972.77
+        "total": 29972.77,
+        "por_ano": {
+          "2019": 2420.37,
+          "2020": 2515.27,
+          "2021": 5212.42,
+          "2022": 1867.89,
+          "2023": 4719.15,
+          "2024": 4671.62,
+          "2025": 6584.1,
+          "2026": 1981.95
+        }
       },
       {
         "nome": "Orcali (vigilância)",
         "categoria": "Limpeza e Jardinagem (contrato fixo)",
-        "total": 23952.92
+        "total": 23952.92,
+        "por_ano": {
+          "2023": 23952.92
+        }
       },
       {
         "nome": "Seguro",
         "categoria": "Utilidades e Concessionárias",
-        "total": 25635.78
+        "total": 25635.78,
+        "por_ano": {
+          "2022": 1488.04,
+          "2023": 2594.23,
+          "2024": 11897.84,
+          "2025": 9655.67
+        }
       },
       {
         "nome": "Serviços de Engenharia",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 22277.0
+        "total": 22277.0,
+        "por_ano": {
+          "2022": 8060.0,
+          "2023": 2581.0,
+          "2024": 11636.0
+        }
       },
       {
         "nome": "INSS (S/folha pagto e notas fiscais)",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 21889.52
+        "total": 21889.52,
+        "por_ano": {
+          "2021": 1901.46,
+          "2022": 14010.07,
+          "2023": 5977.99
+        }
       },
       {
         "nome": "Serviços de Impermeabilização",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 20923.98
+        "total": 20923.98,
+        "por_ano": {
+          "2017": 10500.0,
+          "2020": 4524.0,
+          "2023": 5899.98
+        }
       },
       {
         "nome": "Honorários Contábeis",
         "categoria": "Honorários",
-        "total": 24432.72
+        "total": 24432.72,
+        "por_ano": {
+          "2015": 2543.2,
+          "2016": 4705.44,
+          "2017": 5641.48,
+          "2018": 5461.14,
+          "2019": 5598.93,
+          "2020": 482.53
+        }
       },
       {
         "nome": "INSS (S/folha pagto )",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 20096.07
+        "total": 20096.07,
+        "por_ano": {
+          "2015": 1709.96,
+          "2016": 3245.08,
+          "2017": 3467.97,
+          "2018": 3665.45,
+          "2019": 4071.54,
+          "2020": 3856.4,
+          "2021": 3051.95
+        }
       },
       {
         "nome": "ISS (Impostos s/ Serviço)",
         "categoria": "Encargos Sociais e Impostos",
-        "total": 14634.61
+        "total": 14634.61,
+        "por_ano": {
+          "2024": 6416.16,
+          "2025": 6574.34,
+          "2026": 1644.11
+        }
       },
       {
         "nome": "Honorários Advocaticios",
         "categoria": "Honorários",
-        "total": 13044.12
+        "total": 13044.12,
+        "por_ano": {
+          "2019": 3544.12,
+          "2023": 3750.0,
+          "2024": 4750.0,
+          "2025": 1000.0
+        }
       },
       {
         "nome": "Serviços de Pintura",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 12100.0
+        "total": 12100.0,
+        "por_ano": {
+          "2015": 9000.0,
+          "2021": 1400.0,
+          "2023": 1700.0
+        }
       },
       {
         "nome": "DARF DCTFWeb (INSS/IRRF)",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 11881.3
+        "total": 11881.3,
+        "por_ano": {
+          "2023": 10747.13,
+          "2024": 1134.17
+        }
       },
       {
         "nome": "Material de Limpeza",
         "categoria": "Utilidades e Concessionárias",
-        "total": 12519.65
+        "total": 12519.65,
+        "por_ano": {
+          "2015": 114.1,
+          "2016": 199.6,
+          "2017": 217.45,
+          "2018": 103.65,
+          "2019": 669.71,
+          "2020": 1345.85,
+          "2021": 896.01,
+          "2022": 845.62,
+          "2023": 803.65,
+          "2024": 5245.97,
+          "2025": 1466.36,
+          "2026": 611.68
+        }
       },
       {
         "nome": "Tarifa Cobrança",
         "categoria": "Despesas Financeiras",
-        "total": 11587.72
+        "total": 11587.72,
+        "por_ano": {
+          "2015": 378.71,
+          "2016": 1086.96,
+          "2017": 1374.7,
+          "2018": 680.9,
+          "2019": 367.4,
+          "2021": 1009.86,
+          "2022": 1338.32,
+          "2023": 1357.25,
+          "2024": 2066.81,
+          "2025": 1826.26,
+          "2026": 227.91
+        }
       },
       {
         "nome": "Material de Expediente",
         "categoria": "Utilidades e Concessionárias",
-        "total": 9904.59
+        "total": 9904.59,
+        "por_ano": {
+          "2015": 169.65,
+          "2016": 510.87,
+          "2017": 557.65,
+          "2018": 625.36,
+          "2019": 716.44,
+          "2020": 902.22,
+          "2021": 758.8,
+          "2022": 890.73,
+          "2023": 1222.6,
+          "2024": 1326.79,
+          "2025": 1873.81,
+          "2026": 349.67
+        }
       },
       {
         "nome": "Manutenção do Interfone",
         "categoria": "Manutenção",
-        "total": 8439.84
+        "total": 8439.84,
+        "por_ano": {
+          "2021": 1130.84,
+          "2022": 543.0,
+          "2023": 2266.0,
+          "2025": 4500.0
+        }
       },
       {
         "nome": "Tarifa Bancária",
         "categoria": "Despesas Financeiras",
-        "total": 9141.99
+        "total": 9141.99,
+        "por_ano": {
+          "2015": 389.1,
+          "2016": 681.1,
+          "2017": 1051.45,
+          "2018": 1105.8,
+          "2019": 1346.35,
+          "2020": 1102.0,
+          "2021": 1018.35,
+          "2022": 1459.87,
+          "2023": 795.5,
+          "2024": 137.6,
+          "2025": 983.5,
+          "2026": 484.13
+        }
       },
       {
         "nome": "Serviços Elétricos",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 8328.18
+        "total": 8328.18,
+        "por_ano": {
+          "2018": 820.0,
+          "2019": 530.0,
+          "2020": 1969.79,
+          "2021": 1052.29,
+          "2022": 360.0,
+          "2023": 3246.1,
+          "2025": 350.0
+        }
       },
       {
         "nome": "Manutenção/Material em Rede de Gás",
         "categoria": "Manutenção",
-        "total": 8280.0
+        "total": 8280.0,
+        "por_ano": {
+          "2025": 8280.0
+        }
       },
       {
         "nome": "Material de Construção",
         "categoria": "Utilidades e Concessionárias",
-        "total": 8272.7
+        "total": 8272.7,
+        "por_ano": {
+          "2025": 8272.7
+        }
       },
       {
         "nome": "Instalação Sistema de Monitoramento",
         "categoria": "Reformas e Melhorias",
-        "total": 8060.0
+        "total": 8060.0,
+        "por_ano": {
+          "2021": 8060.0
+        }
       },
       {
         "nome": "Aquisição Kit Telhado",
         "categoria": "Aquisições",
-        "total": 8025.0
+        "total": 8025.0,
+        "por_ano": {
+          "2024": 8025.0
+        }
       },
       {
         "nome": "Lavação, Restauração, Impermeabilização e Pintura do Prédio",
         "categoria": "Reformas e Melhorias",
-        "total": 7900.0
+        "total": 7900.0,
+        "por_ano": {
+          "2025": 7900.0
+        }
       },
       {
         "nome": "Material Elétrico",
         "categoria": "Utilidades e Concessionárias",
-        "total": 7634.18
+        "total": 7634.18,
+        "por_ano": {
+          "2018": 792.7,
+          "2019": 342.2,
+          "2020": 5097.08,
+          "2024": 294.95,
+          "2025": 1107.25
+        }
       },
       {
         "nome": "Manutenção do Portão",
         "categoria": "Manutenção",
-        "total": 8763.19
+        "total": 8763.19,
+        "por_ano": {
+          "2015": 837.69,
+          "2016": 566.0,
+          "2021": 320.0,
+          "2022": 482.0,
+          "2023": 362.5,
+          "2024": 180.0,
+          "2025": 3130.0,
+          "2026": 2885.0
+        }
       },
       {
         "nome": "Taxas Diversas",
         "categoria": "Impostos e Taxas",
-        "total": 7046.63
+        "total": 7046.63,
+        "por_ano": {
+          "2016": 74.37,
+          "2022": 900.0,
+          "2023": 88.78,
+          "2024": 5983.48
+        }
       },
       {
         "nome": "Serviços de Limpeza de Fossa",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 8987.82
+        "total": 8987.82,
+        "por_ano": {
+          "2016": 2350.0,
+          "2017": 536.14,
+          "2018": 1035.94,
+          "2019": 529.1,
+          "2021": 1660.88,
+          "2026": 2875.76
+        }
       },
       {
         "nome": "Bancada(s) de Granito (interfone)",
         "categoria": "Aquisições",
-        "total": 6460.0
+        "total": 6460.0,
+        "por_ano": {
+          "2015": 6460.0
+        }
       },
       {
         "nome": "Fiscalização de Obra",
         "categoria": "Reformas e Melhorias",
-        "total": 6335.1
+        "total": 6335.1,
+        "por_ano": {
+          "2024": 1125.0,
+          "2025": 5210.1
+        }
       },
       {
         "nome": "PIS/COFINS/CSLL",
         "categoria": "Impostos e Taxas",
-        "total": 6207.97
+        "total": 6207.97,
+        "por_ano": {
+          "2018": 613.82,
+          "2019": 2762.16,
+          "2020": 176.83,
+          "2021": 188.74,
+          "2022": 613.41,
+          "2023": 1831.9,
+          "2024": 21.11
+        }
       },
       {
         "nome": "Aquisição de Vidro (Porta)",
         "categoria": "Aquisições",
-        "total": 6039.0
+        "total": 6039.0,
+        "por_ano": {
+          "2017": 1089.0,
+          "2025": 4950.0
+        }
       },
       {
         "nome": "Manutenção de Extintores",
         "categoria": "Manutenção",
-        "total": 5928.1
+        "total": 5928.1,
+        "por_ano": {
+          "2015": 302.1,
+          "2018": 882.0,
+          "2019": 656.0,
+          "2020": 736.0,
+          "2021": 748.0,
+          "2022": 779.0,
+          "2023": 1045.0,
+          "2024": 780.0
+        }
       },
       {
         "nome": "Aquisição de Portão",
         "categoria": "Aquisições",
-        "total": 6800.0
+        "total": 6800.0,
+        "por_ano": {
+          "2015": 3400.0,
+          "2016": 3400.0
+        }
       },
       {
         "nome": "com Pintura",
         "categoria": "Reformas e Melhorias",
-        "total": 5000.0
+        "total": 5000.0,
+        "por_ano": {
+          "2023": 5000.0
+        }
       },
       {
         "nome": "Manutenção do(s)Elevador(es)/Peças",
         "categoria": "Manutenção",
-        "total": 7803.35
+        "total": 7803.35,
+        "por_ano": {
+          "2015": 577.2,
+          "2016": 3146.04,
+          "2017": 1294.27,
+          "2018": 2785.84
+        }
       },
       {
         "nome": "EMPRESAS PRESTADORAS DE SERVIÇOS (sem detalhamento)",
         "categoria": "Limpeza e Jardinagem (contrato fixo)",
-        "total": 4445.47
+        "total": 4445.47,
+        "por_ano": {}
       },
       {
         "nome": "Serviços de Assessoria Remota",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 4390.0
+        "total": 4390.0,
+        "por_ano": {
+          "2024": 1320.0,
+          "2025": 3070.0
+        }
       },
       {
         "nome": "Obra Emergencial",
         "categoria": "Reformas e Melhorias",
-        "total": 4018.0
+        "total": 4018.0,
+        "por_ano": {
+          "2025": 4018.0
+        }
       },
       {
         "nome": "Aquisição Regulador e Medidores de Gás",
         "categoria": "Aquisições",
-        "total": 3700.0
+        "total": 3700.0,
+        "por_ano": {
+          "2020": 3700.0
+        }
       },
       {
         "nome": "Honorário Gestão Administrativa Extra",
         "categoria": "Honorários",
-        "total": 3677.98
+        "total": 3677.98,
+        "por_ano": {
+          "2020": 505.26,
+          "2021": 531.85,
+          "2022": 586.0,
+          "2023": 638.22,
+          "2024": 682.7,
+          "2025": 733.95
+        }
       },
       {
         "nome": "Orcali (zeladoria)",
         "categoria": "Limpeza e Jardinagem (contrato fixo)",
-        "total": 3575.59
+        "total": 3575.59,
+        "por_ano": {
+          "2023": 3575.59
+        }
       },
       {
         "nome": "Juros e Multas",
         "categoria": "Despesas Financeiras",
-        "total": 3437.38
+        "total": 3437.38,
+        "por_ano": {
+          "2019": 17.67,
+          "2020": 528.42,
+          "2021": 285.25,
+          "2022": 680.99,
+          "2023": 312.46,
+          "2024": 81.59,
+          "2025": 311.79,
+          "2026": 1096.56
+        }
       },
       {
         "nome": "Reforma do Portão",
         "categoria": "Reformas e Melhorias",
-        "total": 3300.0
+        "total": 3300.0,
+        "por_ano": {
+          "2025": 3300.0
+        }
       },
       {
         "nome": "Serviços de Limpeza Caixa de Gordura",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 3079.73
+        "total": 3079.73,
+        "por_ano": {
+          "2017": 400.0,
+          "2019": 418.47,
+          "2020": 2261.26
+        }
       },
       {
         "nome": "com Materiais",
         "categoria": "Utilidades e Concessionárias",
-        "total": 2983.19
+        "total": 2983.19,
+        "por_ano": {
+          "2025": 2983.19
+        }
       },
       {
         "nome": "Honorários de Cobrança",
         "categoria": "Honorários",
-        "total": 2910.39
+        "total": 2910.39,
+        "por_ano": {
+          "2019": 2910.39
+        }
       },
       {
         "nome": "Desconto/Devolução",
         "categoria": "Outras Despesas",
-        "total": 2535.64
+        "total": 2535.64,
+        "por_ano": {
+          "2016": 50.0,
+          "2017": 58.1,
+          "2018": 273.9,
+          "2020": 914.51,
+          "2021": 832.64,
+          "2023": 218.16,
+          "2026": 188.33
+        }
       },
       {
         "nome": "Bancárias",
         "categoria": "Outras Despesas",
-        "total": 2393.1
+        "total": 2393.1,
+        "por_ano": {
+          "2018": 739.84,
+          "2019": 1047.12,
+          "2020": 606.14
+        }
       },
       {
         "nome": "Manutenção Interfone",
         "categoria": "Manutenção",
-        "total": 2350.0
+        "total": 2350.0,
+        "por_ano": {
+          "2022": 2350.0
+        }
       },
       {
         "nome": "OUTRAS DESPESAS (sem detalhamento)",
         "categoria": "Outras Despesas",
-        "total": 2165.58
+        "total": 2165.58,
+        "por_ano": {}
       },
       {
         "nome": "/MANUTENÇÃO (sem detalhamento)",
         "categoria": "Manutenção",
-        "total": 2163.02
+        "total": 2163.02,
+        "por_ano": {}
       },
       {
         "nome": "Serviços Hidraulicos",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 2138.2
+        "total": 2138.2,
+        "por_ano": {
+          "2025": 2138.2
+        }
       },
       {
         "nome": "Manutenção Rede de Gás",
         "categoria": "Manutenção",
-        "total": 2137.5
+        "total": 2137.5,
+        "por_ano": {
+          "2024": 997.5,
+          "2025": 1140.0
+        }
       },
       {
         "nome": "Manutencao de Bombas da Piscina",
         "categoria": "Manutenção",
-        "total": 2131.0
+        "total": 2131.0,
+        "por_ano": {
+          "2025": 1200.0,
+          "2026": 931.0
+        }
       },
       {
         "nome": "Serviço de Fixação Para Raio na Cobertura da Caixa d'água",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 2100.0
+        "total": 2100.0,
+        "por_ano": {
+          "2025": 2100.0
+        }
       },
       {
         "nome": "Aquisição Janela",
         "categoria": "Aquisições",
-        "total": 2063.22
+        "total": 2063.22,
+        "por_ano": {
+          "2021": 2063.22
+        }
       },
       {
         "nome": "Internet",
         "categoria": "Utilidades e Concessionárias",
-        "total": 2036.65
+        "total": 2036.65,
+        "por_ano": {
+          "2021": 386.84,
+          "2022": 744.58,
+          "2023": 905.23
+        }
       },
       {
         "nome": "Aquisição de Eletrodomesticos",
         "categoria": "Aquisições",
-        "total": 1917.0
+        "total": 1917.0,
+        "por_ano": {
+          "2019": 359.0,
+          "2025": 1558.0
+        }
       },
       {
         "nome": "Tarifa de Cobrança",
         "categoria": "Outras Despesas",
-        "total": 1819.06
+        "total": 1819.06,
+        "por_ano": {
+          "2020": 713.42,
+          "2021": 514.96,
+          "2024": 241.9,
+          "2025": 118.0,
+          "2026": 230.78
+        }
       },
       {
         "nome": "Serviços de Troca de Telhas",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 1800.0
+        "total": 1800.0,
+        "por_ano": {
+          "2026": 1800.0
+        }
       },
       {
         "nome": "Honorários Contábeis (13º)",
         "categoria": "Honorários",
-        "total": 1750.27
+        "total": 1750.27,
+        "por_ano": {
+          "2015": 381.0,
+          "2016": 425.48,
+          "2018": 461.26,
+          "2019": 482.53
+        }
       },
       {
         "nome": "com Custas Judiciais",
         "categoria": "Outras Despesas",
-        "total": 1728.04
+        "total": 1728.04,
+        "por_ano": {
+          "2019": 1465.1,
+          "2021": 262.94
+        }
       },
       {
         "nome": "Imposto de Renda (S/Aplicação)",
         "categoria": "Despesas Financeiras",
-        "total": 1817.67
+        "total": 1817.67,
+        "por_ano": {
+          "2015": 72.96,
+          "2016": 169.74,
+          "2017": 1.16,
+          "2018": 76.95,
+          "2019": 47.33,
+          "2020": 122.55,
+          "2021": 203.64,
+          "2022": 640.67,
+          "2023": 57.76,
+          "2024": 178.89,
+          "2025": 133.81,
+          "2026": 112.21
+        }
       },
       {
         "nome": "Manutencao de Bombas",
         "categoria": "Manutenção",
-        "total": 1609.6
+        "total": 1609.6,
+        "por_ano": {
+          "2015": 530.0,
+          "2017": 180.0,
+          "2019": 432.5,
+          "2020": 467.1
+        }
       },
       {
         "nome": "com Cartório",
         "categoria": "Outras Despesas",
-        "total": 1650.39
+        "total": 1650.39,
+        "por_ano": {
+          "2015": 61.2,
+          "2016": 66.8,
+          "2017": 73.4,
+          "2018": 75.6,
+          "2019": 93.36,
+          "2020": 142.6,
+          "2021": 143.48,
+          "2022": 158.42,
+          "2023": 250.47,
+          "2024": 297.76,
+          "2025": 287.3
+        }
       },
       {
         "nome": "Parcelamento Divida Ativa",
         "categoria": "Outras Despesas",
-        "total": 1363.06
+        "total": 1363.06,
+        "por_ano": {
+          "2025": 1363.06
+        }
       },
       {
         "nome": "UTILIDADES/SERVIÇOS (sem detalhamento)",
         "categoria": "Utilidades e Concessionárias",
-        "total": 1291.48
+        "total": 1291.48,
+        "por_ano": {}
       },
       {
         "nome": "SERVIÇOS PRESTADOS POR TERCEIROS (sem detalhamento)",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 1269.8
+        "total": 1269.8,
+        "por_ano": {}
       },
       {
         "nome": "com Ressarcimento",
         "categoria": "Outras Despesas",
-        "total": 1250.0
+        "total": 1250.0,
+        "por_ano": {
+          "2022": 1250.0
+        }
       },
       {
         "nome": "com Correio",
         "categoria": "Outras Despesas",
-        "total": 1166.01
+        "total": 1166.01,
+        "por_ano": {
+          "2016": 113.1,
+          "2017": 219.45,
+          "2018": 162.8,
+          "2019": 161.85,
+          "2020": 140.45,
+          "2021": 82.0,
+          "2022": 336.06,
+          "2024": 51.5
+        }
       },
       {
         "nome": "Orcali (monitoramento eletrônico)",
         "categoria": "Limpeza e Jardinagem (contrato fixo)",
-        "total": 1135.85
+        "total": 1135.85,
+        "por_ano": {
+          "2023": 1135.85
+        }
       },
       {
         "nome": "Manutenção de Maquinas e Equipamentos",
         "categoria": "Manutenção",
-        "total": 1062.68
+        "total": 1062.68,
+        "por_ano": {
+          "2023": 1062.68
+        }
       },
       {
         "nome": "Manutenção do Portão Eletrônico",
         "categoria": "Manutenção",
-        "total": 1016.76
+        "total": 1016.76,
+        "por_ano": {
+          "2020": 116.76,
+          "2023": 900.0
+        }
       },
       {
         "nome": "ISS (ISQN)",
         "categoria": "Impostos e Taxas",
-        "total": 1009.46
+        "total": 1009.46,
+        "por_ano": {
+          "2023": 1009.46
+        }
       },
       {
         "nome": "HONORÁRIOS (sem detalhamento)",
         "categoria": "Honorários",
-        "total": 930.05
+        "total": 930.05,
+        "por_ano": {}
       },
       {
         "nome": "Aquisição de Mola",
         "categoria": "Aquisições",
-        "total": 926.0
+        "total": 926.0,
+        "por_ano": {
+          "2017": 926.0
+        }
       },
       {
         "nome": "Honorários Gestão Administrativa",
         "categoria": "Honorários",
-        "total": 915.78
+        "total": 915.78,
+        "por_ano": {
+          "2023": 915.78
+        }
       },
       {
         "nome": "Material para Pintura",
         "categoria": "Utilidades e Concessionárias",
-        "total": 882.75
+        "total": 882.75,
+        "por_ano": {
+          "2023": 882.75
+        }
       },
       {
         "nome": "Devolução Pagto Taxa em Duplicidade",
         "categoria": "Outras Despesas",
-        "total": 872.43
+        "total": 872.43,
+        "por_ano": {
+          "2017": 872.43
+        }
       },
       {
         "nome": "Pagamento em Duplicidade",
         "categoria": "Outras Despesas",
-        "total": 740.78
+        "total": 740.78,
+        "por_ano": {
+          "2024": 740.78
+        }
       },
       {
         "nome": "Certificado Digital",
         "categoria": "Utilidades e Concessionárias",
-        "total": 705.05
+        "total": 705.05,
+        "por_ano": {
+          "2018": 305.05,
+          "2023": 205.0,
+          "2025": 195.0
+        }
       },
       {
         "nome": "Aquisição Controlador de Acesso",
         "categoria": "Aquisições",
-        "total": 680.0
+        "total": 680.0,
+        "por_ano": {
+          "2023": 680.0
+        }
       },
       {
         "nome": "Aquisição de Carrinho e Contentor",
         "categoria": "Aquisições",
-        "total": 664.0
+        "total": 664.0,
+        "por_ano": {
+          "2020": 664.0
+        }
       },
       {
         "nome": "Serviços de Troca de Registro de Incendio da Calçada",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 604.66
+        "total": 604.66,
+        "por_ano": {
+          "2025": 604.66
+        }
       },
       {
         "nome": "Manutenção na Area Gourmet",
         "categoria": "Manutenção",
-        "total": 600.0
+        "total": 600.0,
+        "por_ano": {
+          "2025": 600.0
+        }
       },
       {
         "nome": "Restauração Espreguiçadeira",
         "categoria": "Outras Despesas",
-        "total": 580.0
+        "total": 580.0,
+        "por_ano": {
+          "2024": 580.0
+        }
       },
       {
         "nome": "Material para Jardim",
         "categoria": "Utilidades e Concessionárias",
-        "total": 2148.71
+        "total": 2148.71,
+        "por_ano": {
+          "2024": 1224.7,
+          "2025": 924.01
+        }
       },
       {
         "nome": "Serviços de Chaveiro",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 504.0
+        "total": 504.0,
+        "por_ano": {
+          "2015": 130.0,
+          "2023": 24.0,
+          "2024": 110.0,
+          "2025": 240.0
+        }
       },
       {
         "nome": "Multa/Juros",
         "categoria": "Multas e Juros de Atraso",
-        "total": 492.19
+        "total": 492.19,
+        "por_ano": {
+          "2015": 57.67,
+          "2016": 9.17,
+          "2017": 251.87,
+          "2018": 9.31,
+          "2019": 10.72,
+          "2025": 164.5,
+          "2026": 141.69
+        }
       },
       {
         "nome": "Aquisição de Lixeira",
         "categoria": "Aquisições",
-        "total": 455.0
+        "total": 455.0,
+        "por_ano": {
+          "2021": 455.0
+        }
       },
       {
         "nome": "Manutenção CFTV/Portões/Interfone/Cerca Elétrica",
         "categoria": "Manutenção",
-        "total": 451.5
+        "total": 451.5,
+        "por_ano": {
+          "2023": 451.5
+        }
       },
       {
         "nome": "Material para Piscina",
         "categoria": "Utilidades e Concessionárias",
-        "total": 444.55
+        "total": 444.55,
+        "por_ano": {
+          "2025": 444.55
+        }
       },
       {
         "nome": "com Retirada de Entulho(s)",
         "categoria": "Outras Despesas",
-        "total": 430.0
+        "total": 430.0,
+        "por_ano": {
+          "2025": 430.0
+        }
       },
       {
         "nome": "Serviços de Instalação Sistema de Alarme",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 416.0
+        "total": 416.0,
+        "por_ano": {
+          "2024": 416.0
+        }
       },
       {
         "nome": "Aquisição de Bomba",
         "categoria": "Aquisições",
-        "total": 410.0
+        "total": 410.0,
+        "por_ano": {
+          "2015": 410.0
+        }
       },
       {
         "nome": "Restauração de Espreguiçadeiras da Piscina",
         "categoria": "Reformas e Melhorias",
-        "total": 360.0
+        "total": 360.0,
+        "por_ano": {
+          "2025": 360.0
+        }
       },
       {
         "nome": "Imposto de Renda (S/Poupança)",
         "categoria": "Despesas Financeiras",
-        "total": 329.28
+        "total": 329.28,
+        "por_ano": {
+          "2023": 16.54,
+          "2024": 261.99,
+          "2025": 38.99,
+          "2026": 11.76
+        }
       },
       {
         "nome": "com Retirada Entulho",
         "categoria": "Outras Despesas",
-        "total": 320.1
+        "total": 320.1,
+        "por_ano": {
+          "2023": 320.1
+        }
       },
       {
         "nome": "Manutenção da(s) Piscina(s)",
         "categoria": "Manutenção",
-        "total": 751.85
+        "total": 751.85,
+        "por_ano": {
+          "2016": 450.0,
+          "2025": 301.85
+        }
       },
       {
         "nome": "com Cópias/Impressões/Outros",
         "categoria": "Outras Despesas",
-        "total": 283.53
+        "total": 283.53,
+        "por_ano": {
+          "2023": 42.3,
+          "2024": 150.73,
+          "2025": 40.5,
+          "2026": 50.0
+        }
       },
       {
         "nome": "Serviços de Pedreiro(s)",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 250.0
+        "total": 250.0,
+        "por_ano": {
+          "2025": 250.0
+        }
       },
       {
         "nome": "Manutenção do Motor do Portão",
         "categoria": "Manutenção",
-        "total": 250.0
+        "total": 250.0,
+        "por_ano": {
+          "2025": 250.0
+        }
       },
       {
         "nome": "com Natal",
         "categoria": "Outras Despesas",
-        "total": 235.0
+        "total": 235.0,
+        "por_ano": {
+          "2023": 235.0
+        }
       },
       {
         "nome": "com Uber",
         "categoria": "Outras Despesas",
-        "total": 224.87
+        "total": 224.87,
+        "por_ano": {
+          "2024": 122.09,
+          "2025": 102.78
+        }
       },
       {
         "nome": "Serviços de Impermeabilização de Móveis",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 320.0
+        "total": 320.0,
+        "por_ano": {
+          "2015": 320.0
+        }
       },
       {
         "nome": "Correio",
         "categoria": "Outras Despesas",
-        "total": 287.0
+        "total": 287.0,
+        "por_ano": {
+          "2015": 134.6,
+          "2016": 84.1
+        }
       },
       {
         "nome": "Custas Judiciais",
         "categoria": "Outras Despesas",
-        "total": 148.76
+        "total": 148.76,
+        "por_ano": {
+          "2023": 148.76
+        }
       },
       {
         "nome": "Taxa Crea-SC",
         "categoria": "Impostos e Taxas",
-        "total": 103.03
+        "total": 103.03,
+        "por_ano": {
+          "2025": 206.06
+        }
       },
       {
         "nome": "Serviços de Limpeza",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 100.0
+        "total": 100.0,
+        "por_ano": {
+          "2024": 100.0
+        }
       },
       {
         "nome": "IOF",
         "categoria": "Despesas Financeiras",
-        "total": 99.71
+        "total": 99.71,
+        "por_ano": {
+          "2015": 4.32,
+          "2017": 7.61,
+          "2022": 35.77,
+          "2023": 34.24,
+          "2024": 5.26,
+          "2025": 12.51
+        }
       },
       {
         "nome": "com Água",
         "categoria": "Outras Despesas",
-        "total": 92.0
+        "total": 92.0,
+        "por_ano": {
+          "2016": 24.0,
+          "2017": 92.0
+        }
       },
       {
         "nome": "com Chaveiro",
         "categoria": "Outras Despesas",
-        "total": 75.0
+        "total": 75.0,
+        "por_ano": {
+          "2017": 60.0,
+          "2024": 15.0
+        }
       },
       {
         "nome": "com Combustivel",
         "categoria": "Outras Despesas",
-        "total": 70.0
+        "total": 70.0,
+        "por_ano": {
+          "2025": 70.0
+        }
       },
       {
         "nome": "Aquisição Controle/Tag",
         "categoria": "Aquisições",
-        "total": 50.0
+        "total": 50.0,
+        "por_ano": {
+          "2024": 50.0
+        }
       },
       {
         "nome": "FINANCEIRAS (sem detalhamento)",
         "categoria": "Despesas Financeiras",
-        "total": 49.0
+        "total": 49.0,
+        "por_ano": {}
       },
       {
         "nome": "Serviços de Entrega",
         "categoria": "Serviços de Terceiros (avulsos)",
-        "total": 30.0
+        "total": 30.0,
+        "por_ano": {
+          "2026": 30.0
+        }
       },
       {
         "nome": "PIS",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 19.01
+        "total": 19.01,
+        "por_ano": {
+          "2021": 19.01
+        }
       },
       {
         "nome": "IRRF (S/notas fiscais)",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 10.0
+        "total": 10.0,
+        "por_ano": {
+          "2022": 10.0
+        }
       },
       {
         "nome": "Telefone",
         "categoria": "Utilidades e Concessionárias",
-        "total": 10.0
+        "total": 10.0,
+        "por_ano": {
+          "2023": 10.0
+        }
       },
       {
         "nome": "com correio",
         "categoria": "Outras Despesas",
-        "total": 2.45
+        "total": 2.45,
+        "por_ano": {
+          "2023": 2.45
+        }
       },
       {
         "nome": "INSS (S/folha pagto)",
         "categoria": "Encargos Sociais (INSS)",
-        "total": 2972.28
+        "total": 2972.28,
+        "por_ano": {}
       },
       {
         "nome": "Despesas com Água",
         "categoria": "Outras Despesas",
-        "total": 24.0
+        "total": 24.0,
+        "por_ano": {}
       },
       {
         "nome": "Manutenção e Regulagem em Portas de Vidro",
         "categoria": "Manutenção",
-        "total": 560.0
+        "total": 560.0,
+        "por_ano": {
+          "2025": 560.0
+        }
       },
       {
         "nome": "Despesas com Correio",
         "categoria": "Outras Despesas",
-        "total": 32.9
+        "total": 32.9,
+        "por_ano": {}
       }
     ],
     "categoria_por_mes": {
-      "Encargos Sociais (INSS)": {
-        "12/2016": 743.71,
-        "01/2016": 666.62,
-        "12/2015": 910.9,
-        "06/2015": 666.62,
-        "09/2015": 666.62,
-        "10/2015": 666.62,
-        "11/2015": 666.62,
-        "08/2017": 792.37,
-        "07/2017": 792.37,
-        "06/2017": 792.37,
-        "05/2017": 792.37,
-        "04/2017": 792.37,
-        "03/2017": 761.3800000000001,
-        "02/2017": 761.3800000000001,
-        "01/2017": 743.71,
-        "09/2017": 792.37,
-        "10/2017": 290.47,
-        "11/2017": 290.47,
-        "12/2017": 1796.17,
-        "01/2018": 792.37,
-        "02/2018": 792.37,
-        "03/2018": 792.37,
-        "04/2018": 812.44,
-        "05/2018": 976.44,
-        "06/2018": 812.44,
-        "07/2018": 812.44,
-        "08/2018": 812.44,
-        "09/2018": 812.44,
-        "10/2018": 817.71,
-        "11/2018": 817.71,
-        "12/2018": 817.71,
-        "01/2019": 817.71,
-        "02/2019": 831.35,
-        "03/2019": 831.35,
-        "04/2019": 860.06,
-        "05/2019": 860.06,
-        "06/2019": 1542.06,
-        "08/2019": 860.06,
-        "09/2019": 860.06,
-        "10/2019": 860.06,
-        "11/2019": 860.06,
-        "12/2019": 860.06,
-        "01/2020": 860.06,
-        "03/2020": 902.1700000000001,
-        "05/2020": 1533.6399999999999,
-        "06/2020": 647.9,
-        "07/2020": 323.95,
-        "08/2020": 323.95,
-        "09/2020": 2058.61,
-        "10/2020": 902.1700000000001,
-        "11/2020": 902.1700000000001,
-        "01/2021": 1188.17,
-        "02/2021": 341.0,
-        "03/2021": 950.73,
-        "04/2021": 950.73,
-        "05/2021": 950.73,
-        "07/2021": 1814.95,
-        "08/2021": 1004.63,
-        "09/2021": 1614.36,
-        "10/2021": 969.74,
-        "08/2015": 422.34,
-        "07/2019": 550.68,
-        "02/2020": 610.08,
-        "12/2020": 1734.66,
-        "11/2021": 950.73,
-        "12/2021": 950.73,
-        "01/2022": 1049.73,
-        "03/2022": 2544.4,
-        "04/2022": 1134.21,
-        "05/2022": 1035.21,
-        "06/2022": 1045.21,
-        "07/2022": 1035.21,
-        "08/2022": 2035.26,
-        "09/2022": 1035.21,
-        "10/2022": 1035.21,
-        "11/2022": 1035.21,
-        "12/2022": 1035.21,
-        "01/2023": 1167.21,
-        "02/2023": 1063.11,
-        "03/2023": 1237.49,
-        "04/2023": 1128.59,
-        "05/2023": 1381.59,
-        "06/2023": 1134.17,
-        "07/2023": 1134.17,
-        "08/2023": 1134.17,
-        "09/2023": 3749.61,
-        "10/2023": 1134.17,
-        "11/2023": 1134.17,
-        "12/2023": 1326.67,
-        "01/2024": 1134.17,
-        "02/2016": 695.14,
-        "07/2016": 743.71
-      },
-      "Honorários": {
-        "12/2016": 1634.96,
-        "01/2016": 1082.0,
-        "12/2015": 1463.0,
-        "06/2015": 1052.05,
-        "08/2015": 1052.05,
-        "09/2015": 1051.05,
-        "10/2015": 1082.0,
-        "11/2015": 1083.0,
-        "08/2017": 1255.48,
-        "07/2017": 1259.48,
-        "06/2017": 1259.48,
-        "05/2017": 1259.48,
-        "04/2017": 1255.48,
-        "03/2017": 1259.48,
-        "02/2017": 1255.48,
-        "01/2017": 1205.48,
-        "09/2017": 1259.48,
-        "10/2017": 1283.04,
-        "11/2017": 1283.04,
-        "12/2017": 1740.08,
-        "01/2018": 1287.04,
-        "02/2018": 1287.04,
-        "03/2018": 1283.04,
-        "04/2018": 1283.04,
-        "05/2018": 1287.04,
-        "06/2018": 1283.04,
-        "07/2018": 1287.04,
-        "08/2018": 1287.04,
-        "09/2018": 1286.96,
-        "10/2018": 1310.32,
-        "11/2018": 1310.32,
-        "12/2018": 1771.58,
-        "01/2019": 1310.32,
-        "02/2019": 1349.48,
-        "03/2019": 1349.48,
-        "04/2019": 1349.48,
-        "05/2019": 1349.48,
-        "06/2019": 1349.48,
-        "07/2019": 1349.48,
-        "08/2019": 4893.6,
-        "09/2019": 1349.48,
-        "10/2019": 4281.139999999999,
-        "11/2019": 1370.75,
-        "12/2019": 1853.28,
-        "01/2020": 1370.75,
-        "02/2020": 1407.24,
-        "03/2020": 1412.58,
-        "05/2020": 1895.11,
-        "06/2020": 1412.58,
-        "07/2020": 1412.58,
-        "08/2020": 1895.11,
-        "09/2020": 1412.58,
-        "10/2020": 1435.31,
-        "11/2020": 1435.31,
-        "12/2020": 1940.57,
-        "01/2021": 1435.26,
-        "02/2021": 1484.26,
-        "03/2021": 1484.26,
-        "04/2021": 1484.26,
-        "05/2021": 1484.26,
-        "06/2021": 1484.26,
-        "07/2021": 1484.26,
-        "08/2021": 1484.26,
-        "09/2021": 1484.26,
-        "10/2021": 1510.85,
-        "11/2021": 1510.85,
-        "12/2021": 2042.6999999999998,
-        "01/2022": 1501.85,
-        "02/2022": 1609.85,
-        "03/2022": 1609.85,
-        "04/2022": 1611.85,
-        "05/2022": 1606.85,
-        "06/2022": 1610.5300000000002,
-        "07/2022": 1610.5300000000002,
-        "08/2022": 1610.5300000000002,
-        "09/2022": 1610.5300000000002,
-        "10/2022": 1664.68,
-        "11/2022": 1664.68,
-        "12/2022": 2250.6800000000003,
-        "01/2023": 1664.68,
-        "02/2023": 1744.78,
-        "03/2023": 1744.78,
-        "04/2023": 1744.78,
-        "05/2023": 1744.78,
-        "06/2023": 1744.78,
-        "07/2023": 1760.8,
-        "08/2023": 2760.8,
-        "09/2023": 2777.7799999999997,
-        "10/2023": 2813.0200000000004,
-        "11/2023": 2813.0200000000004,
-        "12/2023": 3201.24,
-        "01/2024": 2763.0200000000004,
-        "02/2024": 2844.9000000000005,
-        "03/2024": 2844.9000000000005,
-        "04/2024": 2844.9000000000005,
-        "05/2024": 2844.9000000000005,
-        "06/2024": 1894.9,
-        "07/2024": 1894.9,
-        "08/2024": 1894.9,
-        "10/2024": 1939.38,
-        "11/2024": 1939.38,
-        "12/2024": 2622.08,
-        "01/2025": 1939.38,
-        "02/2025": 2533.7200000000003,
-        "03/2025": 2533.7200000000003,
-        "04/2025": 2033.72,
-        "05/2025": 2033.72,
-        "06/2025": 2033.72,
-        "07/2025": 2033.72,
-        "08/2025": 2033.72,
-        "10/2025": 2760.48,
-        "11/2025": 2790.4800000000005,
-        "12/2025": 3494.4300000000003,
-        "01/2026": 2760.48,
-        "02/2026": 2897.99,
-        "03/2026": 2870.5299999999997,
-        "04/2026": 5031.28,
-        "04/2020": 930.05,
-        "02/2016": 1165.0,
-        "07/2016": 1165.0,
-        "09/2024": 1894.9
-      },
-      "Utilidades e Concessionárias": {
-        "12/2016": 1165.51,
-        "01/2016": 1332.9399999999998,
-        "12/2015": 1173.6999999999998,
-        "06/2015": 1149.1,
-        "08/2015": 1107.2700000000002,
-        "09/2015": 1218.68,
-        "10/2015": 1153.4,
-        "11/2015": 1194.1,
-        "08/2017": 1249.1599999999999,
-        "07/2017": 1198.15,
-        "06/2017": 1178.1299999999999,
-        "05/2017": 1205.2499999999998,
-        "04/2017": 1182.21,
-        "03/2017": 1905.3999999999999,
-        "01/2017": 1259.1200000000001,
-        "09/2017": 1221.78,
-        "10/2017": 1172.54,
-        "11/2017": 1280.2199999999998,
-        "12/2017": 1246.43,
-        "01/2018": 1293.4099999999999,
-        "02/2018": 1535.79,
-        "03/2018": 1275.08,
-        "04/2018": 1205.83,
-        "05/2018": 1258.37,
-        "06/2018": 1413.1799999999998,
-        "07/2018": 1290.16,
-        "08/2018": 1496.2699999999998,
-        "09/2018": 1438.06,
-        "10/2018": 1457.8000000000002,
-        "11/2018": 2074.2799999999997,
-        "12/2018": 1559.48,
-        "01/2019": 1411.31,
-        "02/2019": 2004.1399999999996,
-        "03/2019": 1489.4799999999998,
-        "04/2019": 1484.92,
-        "05/2019": 1410.31,
-        "06/2019": 1799.87,
-        "07/2019": 1381.04,
-        "08/2019": 1653.2400000000002,
-        "09/2019": 1720.5000000000002,
-        "10/2019": 1407.55,
-        "11/2019": 1345.1499999999999,
-        "12/2019": 1508.0599999999997,
-        "01/2020": 1912.73,
-        "02/2020": 1712.6399999999999,
-        "03/2020": 1425.69,
-        "05/2020": 2726.1,
-        "06/2020": 5128.53,
-        "07/2020": 1377.53,
-        "08/2020": 1500.1599999999999,
-        "09/2020": 1502.6299999999999,
-        "10/2020": 1579.38,
-        "11/2020": 1222.2,
-        "12/2020": 1999.0,
-        "01/2021": 1798.2400000000002,
-        "03/2021": 2804.0400000000004,
-        "04/2021": 1255.72,
-        "05/2021": 1354.42,
-        "06/2021": 1331.16,
-        "07/2021": 1129.42,
-        "08/2021": 1592.22,
-        "09/2021": 1618.54,
-        "10/2021": 1952.3600000000001,
-        "11/2021": 2269.6099999999997,
-        "12/2021": 1704.28,
-        "01/2022": 2127.9,
-        "03/2022": 2808.7200000000007,
-        "04/2022": 1716.8000000000002,
-        "05/2022": 1600.5,
-        "06/2022": 1550.71,
-        "07/2022": 1541.22,
-        "08/2022": 2337.71,
-        "09/2022": 2382.7,
-        "10/2022": 2103.25,
-        "11/2022": 1656.76,
-        "12/2022": 1953.5200000000002,
-        "01/2023": 1933.65,
-        "02/2023": 1895.1100000000001,
-        "03/2023": 2665.76,
-        "04/2023": 1763.5400000000002,
-        "05/2023": 1710.71,
-        "06/2023": 1895.3799999999999,
-        "07/2023": 2966.16,
-        "08/2023": 2361.69,
-        "09/2023": 6456.05,
-        "10/2023": 2530.54,
-        "11/2023": 2617.4,
-        "12/2023": 2420.55,
-        "01/2024": 2841.0200000000004,
-        "02/2024": 2578.8700000000003,
-        "03/2024": 2972.4,
-        "04/2024": 2882.8,
-        "05/2024": 1877.8200000000002,
-        "07/2024": 4873.96,
-        "08/2024": 4564.53,
-        "10/2024": 4257.4400000000005,
-        "11/2024": 4429.69,
-        "12/2024": 4592.83,
-        "01/2025": 4436.84,
-        "02/2025": 3471.21,
-        "03/2025": 4835.660000000001,
-        "04/2025": 3742.63,
-        "05/2025": 3649.9500000000007,
-        "06/2025": 3390.9700000000003,
-        "07/2025": 4788.209999999999,
-        "08/2025": 4236.780000000001,
-        "10/2025": 4479.16,
-        "11/2025": 4001.09,
-        "12/2025": 6905.33,
-        "01/2026": 2601.4300000000003,
-        "03/2026": 2934.7500000000005,
-        "04/2026": 2295.14,
-        "02/2017": 865.25,
-        "02/2021": 1405.96,
-        "02/2022": 1428.3999999999999,
-        "06/2024": 1721.57,
-        "02/2026": 1453.83,
-        "04/2020": 1291.48,
-        "02/2016": 1296.5,
-        "07/2016": 1194.72,
-        "09/2024": 5220.62
-      },
-      "Impostos e Taxas": {
-        "12/2016": 179.68,
-        "01/2016": 147.44,
-        "12/2015": 147.44,
-        "06/2015": 147.44,
-        "08/2015": 147.44,
-        "09/2015": 147.44,
-        "10/2015": 147.44,
-        "11/2015": 147.44,
-        "08/2017": 207.0,
-        "07/2017": 207.0,
-        "06/2017": 207.0,
-        "05/2017": 207.0,
-        "04/2017": 190.58,
-        "03/2017": 179.68,
-        "02/2017": 179.68,
-        "01/2017": 188.68,
-        "09/2017": 245.42,
-        "11/2017": 206.5,
-        "12/2017": 441.56,
-        "01/2018": 220.78,
-        "02/2018": 207.28,
-        "03/2018": 229.72,
-        "04/2018": 225.18,
-        "05/2018": 1056.5700000000002,
-        "06/2018": 270.67,
-        "07/2018": 262.77,
-        "08/2018": 250.3,
-        "09/2018": 215.17,
-        "10/2018": 273.14,
-        "11/2018": 268.32,
-        "12/2018": 254.59,
-        "01/2019": 239.9,
-        "03/2019": 4638.67,
-        "04/2019": 249.44,
-        "05/2019": 335.1,
-        "06/2019": 271.87,
-        "07/2019": 257.71,
-        "08/2019": 301.58,
-        "09/2019": 295.35,
-        "10/2019": 274.42,
-        "11/2019": 273.92,
-        "12/2019": 273.42,
-        "01/2020": 317.3,
-        "02/2020": 272.63,
-        "03/2020": 264.16,
-        "07/2020": 907.1500000000001,
-        "09/2020": 834.2700000000001,
-        "10/2020": 269.43,
-        "11/2020": 306.65000000000003,
-        "12/2020": 320.31,
-        "01/2021": 421.38,
-        "03/2021": 635.24,
-        "04/2021": 309.45000000000005,
-        "05/2021": 290.61,
-        "06/2021": 331.15000000000003,
-        "07/2021": 292.27000000000004,
-        "08/2021": 339.18,
-        "09/2021": 353.03999999999996,
-        "10/2021": 301.99,
-        "11/2021": 388.81,
-        "12/2021": 339.09999999999997,
-        "01/2022": 382.7,
-        "04/2022": 394.32,
-        "05/2022": 970.4,
-        "06/2022": 455.09999999999997,
-        "07/2022": 366.87,
-        "08/2022": 380.32,
-        "09/2022": 950.02,
-        "11/2022": 545.9300000000001,
-        "12/2022": 1754.1,
-        "01/2023": 425.47,
-        "02/2023": 400.14,
-        "03/2023": 559.41,
-        "04/2023": 440.26,
-        "05/2023": 498.35,
-        "06/2023": 408.96000000000004,
-        "07/2023": 405.08000000000004,
-        "08/2023": 405.35,
-        "10/2023": 525.64,
-        "11/2023": 470.01,
-        "12/2023": 534.3000000000001,
-        "01/2024": 472.12,
-        "02/2019": 20.93,
-        "05/2020": 15.08,
-        "03/2022": 38.02,
-        "10/2022": 21.11,
-        "09/2023": 2630.25,
-        "06/2024": 8.0,
-        "08/2024": 5875.84,
-        "11/2024": 99.64,
-        "07/2025": 103.03,
-        "02/2016": 148.59,
-        "07/2016": 165.68
-      },
-      "Manutenção": {
-        "12/2016": 730.0,
-        "12/2015": 320.0,
-        "06/2015": 1477.85,
-        "08/2015": 1006.5999999999999,
-        "10/2015": 920.2,
-        "11/2015": 690.85,
-        "08/2017": 882.75,
-        "07/2017": 929.9,
-        "06/2017": 812.75,
-        "05/2017": 1359.19,
-        "04/2017": 781.0,
-        "03/2017": 716.0,
-        "02/2017": 945.45,
-        "01/2017": 2139.96,
-        "09/2017": 1158.35,
-        "10/2017": 1066.38,
-        "11/2017": 1066.37,
-        "12/2017": 2066.27,
-        "01/2018": 590.81,
-        "02/2018": 1866.2,
-        "03/2018": 1042.85,
-        "04/2018": 1993.8999999999999,
-        "05/2018": 1797.88,
-        "06/2018": 1480.4099999999999,
-        "07/2018": 686.8199999999999,
-        "08/2018": 703.69,
-        "09/2018": 1286.5200000000002,
-        "10/2018": 703.69,
-        "11/2018": 1231.72,
-        "12/2018": 703.69,
-        "01/2019": 805.94,
-        "02/2019": 1919.96,
-        "03/2019": 1419.22,
-        "04/2019": 4039.41,
-        "06/2019": 1320.62,
-        "08/2019": 1656.29,
-        "09/2019": 1101.6399999999999,
-        "10/2019": 1722.1000000000001,
-        "11/2019": 1434.49,
-        "01/2020": 1207.5300000000002,
-        "02/2020": 2071.76,
-        "03/2020": 3507.3599999999997,
-        "07/2020": 1310.97,
-        "08/2020": 1668.3000000000002,
-        "09/2020": 496.73,
-        "10/2020": 1521.54,
-        "11/2020": 744.79,
-        "12/2020": 744.61,
-        "01/2021": 1109.46,
-        "02/2021": 1784.96,
-        "03/2021": 2470.44,
-        "04/2021": 1695.08,
-        "05/2021": 1878.6699999999998,
-        "06/2021": 687.8299999999999,
-        "08/2021": 1883.11,
-        "09/2021": 1624.15,
-        "10/2021": 838.6500000000001,
-        "11/2021": 2177.31,
-        "01/2022": 738.36,
-        "02/2022": 4323.52,
-        "03/2022": 3012.44,
-        "05/2022": 2773.62,
-        "06/2022": 2524.55,
-        "07/2022": 1038.57,
-        "08/2022": 1012.0899999999999,
-        "09/2022": 552.94,
-        "10/2022": 1711.34,
-        "11/2022": 497.03999999999996,
-        "12/2022": 1717.73,
-        "01/2023": 1012.03,
-        "02/2023": 2500.25,
-        "03/2023": 3716.03,
-        "04/2023": 2150.24,
-        "05/2023": 2401.14,
-        "06/2023": 1058.03,
-        "07/2023": 2447.36,
-        "08/2023": 1956.95,
-        "10/2023": 1517.3300000000002,
-        "11/2023": 1701.4,
-        "12/2023": 1913.41,
-        "01/2024": 1759.1599999999999,
-        "02/2024": 2372.04,
-        "03/2024": 2659.04,
-        "04/2024": 2292.51,
-        "05/2024": 5964.04,
-        "06/2024": 4349.13,
-        "07/2024": 2398.95,
-        "08/2024": 2189.94,
-        "10/2024": 1840.79,
-        "11/2024": 2145.5800000000004,
-        "12/2024": 3104.0,
-        "01/2025": 2498.7400000000002,
-        "02/2025": 2534.08,
-        "03/2025": 4389.09,
-        "04/2025": 2997.08,
-        "05/2025": 5832.41,
-        "06/2025": 6192.349999999999,
-        "07/2025": 5293.75,
-        "08/2025": 7156.82,
-        "10/2025": 8850.84,
-        "11/2025": 4395.790000000001,
-        "12/2025": 9125.46,
-        "01/2026": 3588.31,
-        "02/2026": 3414.73,
-        "03/2026": 3957.94,
-        "04/2026": 2862.01,
-        "05/2019": 2146.34,
-        "07/2019": 746.9200000000001,
-        "12/2019": 415.57,
-        "05/2020": 1394.29,
-        "07/2021": 1360.92,
-        "12/2021": 1981.0,
-        "01/2016": 462.25,
-        "04/2020": 2163.02,
-        "09/2023": 1514.18,
-        "02/2016": 320.0,
-        "09/2024": 1999.02
-      },
       "Limpeza e Jardinagem (contrato fixo)": {
-        "12/2016": 3644.47,
-        "01/2016": 3268.61,
-        "12/2015": 3269.76,
         "06/2015": 3269.76,
+        "07/2015": 3269.76,
         "08/2015": 3269.76,
         "09/2015": 3269.76,
         "10/2015": 3269.76,
         "11/2015": 3269.76,
-        "08/2017": 3867.86,
-        "07/2017": 3867.86,
-        "06/2017": 3867.86,
-        "05/2017": 3867.86,
-        "04/2017": 3867.86,
-        "03/2017": 3884.29,
-        "02/2017": 3644.49,
+        "12/2015": 3269.76,
+        "01/2016": 3268.61,
+        "02/2016": 3644.49,
+        "03/2016": 3644.49,
+        "04/2016": 3644.49,
+        "05/2016": 3644.49,
+        "06/2016": 3644.49,
+        "07/2016": 3644.49,
+        "08/2016": 3644.49,
+        "09/2016": 3644.49,
+        "10/2016": 3644.49,
+        "11/2016": 3644.49,
+        "12/2016": 3644.47,
         "01/2017": 3644.48,
+        "02/2017": 3644.49,
+        "03/2017": 3884.29,
+        "04/2017": 3867.86,
+        "05/2017": 3867.86,
+        "06/2017": 3867.86,
+        "07/2017": 3867.86,
+        "08/2017": 3867.86,
         "09/2017": 3867.86,
         "10/2017": 3867.86,
         "11/2017": 3867.86,
@@ -2334,6 +2543,7 @@
         "01/2020": 4233.29,
         "02/2020": 4445.47,
         "03/2020": 4445.47,
+        "04/2020": 4445.47,
         "05/2020": 4445.47,
         "06/2020": 4444.95,
         "07/2020": 4443.61,
@@ -2373,6 +2583,7 @@
         "06/2023": 5536.18,
         "07/2023": 6465.18,
         "08/2023": 5602.42,
+        "09/2023": 28664.36,
         "10/2023": 5536.18,
         "11/2023": 5536.18,
         "12/2023": 5536.18,
@@ -2384,6 +2595,7 @@
         "06/2024": 5772.09,
         "07/2024": 5772.09,
         "08/2024": 6056.28,
+        "09/2024": 5772.09,
         "10/2024": 5772.09,
         "11/2024": 5772.09,
         "12/2024": 5772.09,
@@ -2395,154 +2607,945 @@
         "06/2025": 6337.74,
         "07/2025": 6337.74,
         "08/2025": 6337.74,
+        "09/2025": 6337.74,
         "10/2025": 6337.74,
         "11/2025": 6337.74,
         "12/2025": 6337.74,
         "01/2026": 6337.74,
         "02/2026": 6905.69,
         "03/2026": 7213.64,
-        "04/2026": 7213.64,
-        "04/2020": 4445.47,
-        "09/2023": 28664.359999999997,
-        "02/2016": 3644.49,
-        "07/2016": 3644.49,
-        "09/2024": 5772.09
+        "04/2026": 7213.64
+      },
+      "Utilidades e Concessionárias": {
+        "06/2015": 1149.1,
+        "07/2015": 1240.51,
+        "08/2015": 1107.27,
+        "09/2015": 1218.68,
+        "10/2015": 1153.4,
+        "11/2015": 1194.1,
+        "12/2015": 1173.7,
+        "01/2016": 1332.94,
+        "02/2016": 1296.5,
+        "03/2016": 1238.09,
+        "04/2016": 1274.04,
+        "05/2016": 1373.91,
+        "06/2016": 1286.5,
+        "07/2016": 1194.72,
+        "08/2016": 1086.48,
+        "09/2016": 1188.39,
+        "10/2016": 1159.6,
+        "11/2016": 1135.57,
+        "12/2016": 1165.51,
+        "01/2017": 1259.12,
+        "02/2017": 865.25,
+        "03/2017": 1905.4,
+        "04/2017": 1182.21,
+        "05/2017": 1205.25,
+        "06/2017": 1178.13,
+        "07/2017": 1198.15,
+        "08/2017": 1249.16,
+        "09/2017": 1221.78,
+        "10/2017": 1172.54,
+        "11/2017": 1280.22,
+        "12/2017": 1246.43,
+        "01/2018": 1293.41,
+        "02/2018": 1535.79,
+        "03/2018": 1275.08,
+        "04/2018": 1205.83,
+        "05/2018": 1258.37,
+        "06/2018": 1413.18,
+        "07/2018": 1290.16,
+        "08/2018": 1496.27,
+        "09/2018": 1438.06,
+        "10/2018": 1457.8,
+        "11/2018": 2074.28,
+        "12/2018": 1559.48,
+        "01/2019": 1411.31,
+        "02/2019": 2004.14,
+        "03/2019": 1489.48,
+        "04/2019": 1484.92,
+        "05/2019": 1410.31,
+        "06/2019": 1799.87,
+        "07/2019": 1381.04,
+        "08/2019": 1653.24,
+        "09/2019": 1720.5,
+        "10/2019": 1407.55,
+        "11/2019": 1345.15,
+        "12/2019": 1508.06,
+        "01/2020": 1912.73,
+        "02/2020": 1712.64,
+        "03/2020": 1425.69,
+        "04/2020": 1291.48,
+        "05/2020": 2726.1,
+        "06/2020": 5128.53,
+        "07/2020": 1377.53,
+        "08/2020": 1500.16,
+        "09/2020": 1502.63,
+        "10/2020": 1579.38,
+        "11/2020": 1222.2,
+        "12/2020": 1999.0,
+        "01/2021": 1798.24,
+        "02/2021": 1405.96,
+        "03/2021": 2804.04,
+        "04/2021": 1255.72,
+        "05/2021": 1354.42,
+        "06/2021": 1331.16,
+        "07/2021": 1129.42,
+        "08/2021": 1592.22,
+        "09/2021": 1618.54,
+        "10/2021": 1952.36,
+        "11/2021": 2269.61,
+        "12/2021": 1704.28,
+        "01/2022": 2127.9,
+        "02/2022": 1428.4,
+        "03/2022": 2808.72,
+        "04/2022": 1716.8,
+        "05/2022": 1600.5,
+        "06/2022": 1550.71,
+        "07/2022": 1541.22,
+        "08/2022": 2337.71,
+        "09/2022": 2382.7,
+        "10/2022": 2103.25,
+        "11/2022": 1656.76,
+        "12/2022": 1953.52,
+        "01/2023": 1933.65,
+        "02/2023": 1895.11,
+        "03/2023": 2665.76,
+        "04/2023": 1763.54,
+        "05/2023": 1710.71,
+        "06/2023": 1895.38,
+        "07/2023": 2966.16,
+        "08/2023": 2361.69,
+        "09/2023": 6456.05,
+        "10/2023": 2530.54,
+        "11/2023": 2617.4,
+        "12/2023": 2420.55,
+        "01/2024": 2841.02,
+        "02/2024": 2578.87,
+        "03/2024": 2972.4,
+        "04/2024": 2882.8,
+        "05/2024": 1877.82,
+        "06/2024": 1721.57,
+        "07/2024": 4873.96,
+        "08/2024": 4564.53,
+        "09/2024": 5220.62,
+        "10/2024": 4257.44,
+        "11/2024": 4429.69,
+        "12/2024": 4592.83,
+        "01/2025": 4436.84,
+        "02/2025": 3471.21,
+        "03/2025": 4835.66,
+        "04/2025": 3742.63,
+        "05/2025": 3649.95,
+        "06/2025": 3390.97,
+        "07/2025": 4788.21,
+        "08/2025": 4236.78,
+        "09/2025": 4764.92,
+        "10/2025": 4479.16,
+        "11/2025": 4001.09,
+        "12/2025": 6905.33,
+        "01/2026": 2601.43,
+        "02/2026": 1453.83,
+        "03/2026": 2934.75,
+        "04/2026": 2295.14
+      },
+      "Manutenção": {
+        "06/2015": 1477.85,
+        "07/2015": 1243.59,
+        "08/2015": 1006.6,
+        "10/2015": 920.2,
+        "11/2015": 690.85,
+        "12/2015": 320.0,
+        "01/2016": 462.25,
+        "02/2016": 320.0,
+        "03/2016": 540.0,
+        "04/2016": 689.5,
+        "05/2016": 640.0,
+        "06/2016": 320.0,
+        "08/2016": 637.2,
+        "09/2016": 2642.42,
+        "10/2016": 2488.81,
+        "11/2016": 2077.06,
+        "12/2016": 730.0,
+        "01/2017": 2139.96,
+        "02/2017": 945.45,
+        "03/2017": 716.0,
+        "04/2017": 781.0,
+        "05/2017": 1359.19,
+        "06/2017": 812.75,
+        "07/2017": 929.9,
+        "08/2017": 882.75,
+        "09/2017": 1158.35,
+        "10/2017": 1066.38,
+        "11/2017": 1066.37,
+        "12/2017": 2066.27,
+        "01/2018": 590.81,
+        "02/2018": 1866.2,
+        "03/2018": 1042.85,
+        "04/2018": 1993.9,
+        "05/2018": 1797.88,
+        "06/2018": 1480.41,
+        "07/2018": 686.82,
+        "08/2018": 703.69,
+        "09/2018": 1286.52,
+        "10/2018": 703.69,
+        "11/2018": 1231.72,
+        "12/2018": 703.69,
+        "01/2019": 805.94,
+        "02/2019": 1919.96,
+        "03/2019": 1419.22,
+        "04/2019": 4039.41,
+        "05/2019": 2146.34,
+        "06/2019": 1320.62,
+        "07/2019": 746.92,
+        "08/2019": 1656.29,
+        "09/2019": 1101.64,
+        "10/2019": 1722.1,
+        "11/2019": 1434.49,
+        "12/2019": 415.57,
+        "01/2020": 1207.53,
+        "02/2020": 2071.76,
+        "03/2020": 3507.36,
+        "04/2020": 2163.02,
+        "05/2020": 1394.29,
+        "07/2020": 1310.97,
+        "08/2020": 1668.3,
+        "09/2020": 496.73,
+        "10/2020": 1521.54,
+        "11/2020": 744.79,
+        "12/2020": 744.61,
+        "01/2021": 1109.46,
+        "02/2021": 1784.96,
+        "03/2021": 2470.44,
+        "04/2021": 1695.08,
+        "05/2021": 1878.67,
+        "06/2021": 687.83,
+        "07/2021": 1360.92,
+        "08/2021": 1883.11,
+        "09/2021": 1624.15,
+        "10/2021": 838.65,
+        "11/2021": 2177.31,
+        "12/2021": 1981.0,
+        "01/2022": 738.36,
+        "02/2022": 4323.52,
+        "03/2022": 3012.44,
+        "05/2022": 2773.62,
+        "06/2022": 2524.55,
+        "07/2022": 1038.57,
+        "08/2022": 1012.09,
+        "09/2022": 552.94,
+        "10/2022": 1711.34,
+        "11/2022": 497.04,
+        "12/2022": 1717.73,
+        "01/2023": 1012.03,
+        "02/2023": 2500.25,
+        "03/2023": 3716.03,
+        "04/2023": 2150.24,
+        "05/2023": 2401.14,
+        "06/2023": 1058.03,
+        "07/2023": 2447.36,
+        "08/2023": 1956.95,
+        "09/2023": 1514.18,
+        "10/2023": 1517.33,
+        "11/2023": 1701.4,
+        "12/2023": 1913.41,
+        "01/2024": 1759.16,
+        "02/2024": 2372.04,
+        "03/2024": 2659.04,
+        "04/2024": 2292.51,
+        "05/2024": 5964.04,
+        "06/2024": 4349.13,
+        "07/2024": 2398.95,
+        "08/2024": 2189.94,
+        "09/2024": 1999.02,
+        "10/2024": 1840.79,
+        "11/2024": 2145.58,
+        "12/2024": 3104.0,
+        "01/2025": 2498.74,
+        "02/2025": 2534.08,
+        "03/2025": 4389.09,
+        "04/2025": 2997.08,
+        "05/2025": 5832.41,
+        "06/2025": 6192.35,
+        "07/2025": 5293.75,
+        "08/2025": 7156.82,
+        "09/2025": 9432.3,
+        "10/2025": 8850.84,
+        "11/2025": 4395.79,
+        "12/2025": 9125.46,
+        "01/2026": 3588.31,
+        "02/2026": 3414.73,
+        "03/2026": 3957.94,
+        "04/2026": 2862.01
+      },
+      "Serviços de Terceiros (avulsos)": {
+        "06/2015": 290.0,
+        "07/2015": 160.0,
+        "12/2015": 9893.3,
+        "01/2016": 700.0,
+        "03/2016": 350.0,
+        "06/2016": 60.0,
+        "07/2016": 100.0,
+        "08/2016": 1000.0,
+        "09/2016": 1000.0,
+        "01/2017": 400.0,
+        "03/2017": 200.0,
+        "09/2017": 536.14,
+        "11/2017": 3500.0,
+        "12/2017": 7000.0,
+        "03/2018": 820.0,
+        "05/2018": 1035.94,
+        "11/2018": 24000.0,
+        "12/2018": 15000.0,
+        "02/2019": 15000.0,
+        "04/2019": 947.57,
+        "05/2019": 12.5,
+        "06/2019": 250.0,
+        "10/2019": 530.0,
+        "11/2019": 1310.0,
+        "01/2020": 1116.12,
+        "03/2020": 1269.8,
+        "04/2020": 1269.8,
+        "08/2020": 1599.99,
+        "09/2020": 1245.14,
+        "10/2020": 700.0,
+        "11/2020": 2262.0,
+        "12/2020": 2262.0,
+        "01/2021": 868.57,
+        "05/2021": 395.0,
+        "08/2021": 1844.6,
+        "09/2021": 1300.0,
+        "10/2021": 1737.51,
+        "11/2021": 1137.5,
+        "12/2021": 1071.75,
+        "01/2022": 1850.0,
+        "03/2022": 2331.75,
+        "05/2022": 4180.0,
+        "06/2022": 2700.0,
+        "07/2022": 3780.0,
+        "08/2022": 4081.99,
+        "09/2022": 852.44,
+        "10/2022": 360.0,
+        "11/2022": 2279.27,
+        "12/2022": 1017.36,
+        "01/2023": 1253.75,
+        "02/2023": 858.71,
+        "03/2023": 2266.0,
+        "04/2023": 280.0,
+        "05/2023": 3059.16,
+        "06/2023": 3059.16,
+        "07/2023": 2206.66,
+        "08/2023": 979.5,
+        "09/2023": 2000.0,
+        "11/2023": 1721.5,
+        "12/2023": 2581.0,
+        "01/2024": 6456.0,
+        "02/2024": 4731.0,
+        "03/2024": 5217.0,
+        "04/2024": 3552.0,
+        "05/2024": 210.0,
+        "06/2024": 862.0,
+        "07/2024": 2260.0,
+        "08/2024": 2480.0,
+        "09/2024": 330.0,
+        "10/2024": 2480.0,
+        "11/2024": 3473.1,
+        "12/2024": 1821.0,
+        "01/2025": 2226.0,
+        "02/2025": 4030.0,
+        "03/2025": 1480.0,
+        "04/2025": 11092.15,
+        "05/2025": 6105.0,
+        "06/2025": 330.0,
+        "07/2025": 6908.2,
+        "08/2025": 3294.4,
+        "11/2025": 1304.66,
+        "12/2025": 2100.0,
+        "01/2026": 4705.76,
+        "02/2026": 4380.45,
+        "03/2026": 1240.0,
+        "04/2026": 14470.0
+      },
+      "Reformas e Melhorias": {
+        "10/2020": 5600.0,
+        "05/2021": 8194.0,
+        "08/2021": 3190.0,
+        "09/2021": 3190.0,
+        "10/2021": 1680.0,
+        "09/2022": 43400.0,
+        "10/2022": 3500.0,
+        "11/2022": 10500.0,
+        "12/2022": 3400.0,
+        "07/2023": 5000.0,
+        "04/2024": 12088.63,
+        "05/2024": 12088.63,
+        "06/2024": 12088.63,
+        "07/2024": 12088.63,
+        "08/2024": 1476.93,
+        "09/2024": 1476.93,
+        "10/2024": 1476.93,
+        "11/2024": 13422.0,
+        "12/2024": 11862.6,
+        "01/2025": 11862.6,
+        "02/2025": 360.0,
+        "03/2025": 11630.15,
+        "04/2025": 22873.04,
+        "06/2025": 5400.0,
+        "07/2025": 3300.0,
+        "11/2025": 7900.0,
+        "12/2025": 6318.0
+      },
+      "Honorários": {
+        "06/2015": 1052.05,
+        "07/2015": 1051.05,
+        "08/2015": 1052.05,
+        "09/2015": 1051.05,
+        "10/2015": 1082.0,
+        "11/2015": 1083.0,
+        "12/2015": 1463.0,
+        "01/2016": 1082.0,
+        "02/2016": 1165.0,
+        "03/2016": 1164.0,
+        "04/2016": 1164.0,
+        "05/2016": 1164.0,
+        "06/2016": 1164.0,
+        "07/2016": 1165.0,
+        "08/2016": 1161.0,
+        "09/2016": 1164.0,
+        "10/2016": 1207.48,
+        "11/2016": 1207.48,
+        "12/2016": 1634.96,
+        "01/2017": 1205.48,
+        "02/2017": 1255.48,
+        "03/2017": 1259.48,
+        "04/2017": 1255.48,
+        "05/2017": 1259.48,
+        "06/2017": 1259.48,
+        "07/2017": 1259.48,
+        "08/2017": 1255.48,
+        "09/2017": 1259.48,
+        "10/2017": 1283.04,
+        "11/2017": 1283.04,
+        "12/2017": 1740.08,
+        "01/2018": 1287.04,
+        "02/2018": 1287.04,
+        "03/2018": 1283.04,
+        "04/2018": 1283.04,
+        "05/2018": 1287.04,
+        "06/2018": 1283.04,
+        "07/2018": 1287.04,
+        "08/2018": 1287.04,
+        "09/2018": 1286.96,
+        "10/2018": 1310.32,
+        "11/2018": 1310.32,
+        "12/2018": 1771.58,
+        "01/2019": 1310.32,
+        "02/2019": 1349.48,
+        "03/2019": 1349.48,
+        "04/2019": 1349.48,
+        "05/2019": 1349.48,
+        "06/2019": 1349.48,
+        "07/2019": 1349.48,
+        "08/2019": 4893.6,
+        "09/2019": 1349.48,
+        "10/2019": 4281.14,
+        "11/2019": 1370.75,
+        "12/2019": 1853.28,
+        "01/2020": 1370.75,
+        "02/2020": 1407.24,
+        "03/2020": 1412.58,
+        "04/2020": 930.05,
+        "05/2020": 1895.11,
+        "06/2020": 1412.58,
+        "07/2020": 1412.58,
+        "08/2020": 1895.11,
+        "09/2020": 1412.58,
+        "10/2020": 1435.31,
+        "11/2020": 1435.31,
+        "12/2020": 1940.57,
+        "01/2021": 1435.26,
+        "02/2021": 1484.26,
+        "03/2021": 1484.26,
+        "04/2021": 1484.26,
+        "05/2021": 1484.26,
+        "06/2021": 1484.26,
+        "07/2021": 1484.26,
+        "08/2021": 1484.26,
+        "09/2021": 1484.26,
+        "10/2021": 1510.85,
+        "11/2021": 1510.85,
+        "12/2021": 2042.7,
+        "01/2022": 1501.85,
+        "02/2022": 1609.85,
+        "03/2022": 1609.85,
+        "04/2022": 1611.85,
+        "05/2022": 1606.85,
+        "06/2022": 1610.53,
+        "07/2022": 1610.53,
+        "08/2022": 1610.53,
+        "09/2022": 1610.53,
+        "10/2022": 1664.68,
+        "11/2022": 1664.68,
+        "12/2022": 2250.68,
+        "01/2023": 1664.68,
+        "02/2023": 1744.78,
+        "03/2023": 1744.78,
+        "04/2023": 1744.78,
+        "05/2023": 1744.78,
+        "06/2023": 1744.78,
+        "07/2023": 1760.8,
+        "08/2023": 2760.8,
+        "09/2023": 2777.78,
+        "10/2023": 2813.02,
+        "11/2023": 2813.02,
+        "12/2023": 3201.24,
+        "01/2024": 2763.02,
+        "02/2024": 2844.9,
+        "03/2024": 2844.9,
+        "04/2024": 2844.9,
+        "05/2024": 2844.9,
+        "06/2024": 1894.9,
+        "07/2024": 1894.9,
+        "08/2024": 1894.9,
+        "09/2024": 1894.9,
+        "10/2024": 1939.38,
+        "11/2024": 1939.38,
+        "12/2024": 2622.08,
+        "01/2025": 1939.38,
+        "02/2025": 2533.72,
+        "03/2025": 2533.72,
+        "04/2025": 2033.72,
+        "05/2025": 2033.72,
+        "06/2025": 2033.72,
+        "07/2025": 2033.72,
+        "08/2025": 2033.72,
+        "09/2025": 2709.23,
+        "10/2025": 2760.48,
+        "11/2025": 2790.48,
+        "12/2025": 3494.43,
+        "01/2026": 2760.48,
+        "02/2026": 2897.99,
+        "03/2026": 2870.53,
+        "04/2026": 5031.28
       },
       "Outras Despesas": {
+        "06/2015": 9.8,
+        "07/2015": 21.0,
+        "08/2015": 1198.75,
+        "09/2015": 25.2,
+        "10/2015": 1148.59,
+        "12/2015": 40.8,
+        "01/2016": 1283.62,
+        "02/2016": 61.2,
+        "03/2016": 21.0,
+        "04/2016": 1148.45,
+        "05/2016": 10.5,
+        "06/2016": 1199.69,
+        "07/2016": 87.8,
+        "08/2016": 1175.68,
+        "09/2016": 34.0,
+        "10/2016": 1395.57,
+        "11/2016": 11.9,
         "12/2016": 11.9,
-        "08/2017": 1182.85,
-        "07/2017": 1518.6299999999999,
-        "06/2017": 1117.64,
-        "05/2017": 11.9,
-        "04/2017": 1811.3100000000002,
-        "03/2017": 59.9,
-        "02/2017": 26.0,
         "01/2017": 2301.85,
+        "02/2017": 26.0,
+        "03/2017": 59.9,
+        "04/2017": 1811.31,
+        "05/2017": 11.9,
+        "06/2017": 1117.64,
+        "07/2017": 1518.63,
+        "08/2017": 1182.85,
         "09/2017": 78.2,
         "10/2017": 12.6,
         "11/2017": 1358.36,
         "12/2017": 24.05,
         "01/2018": 1624.27,
         "02/2018": 11.1,
-        "03/2018": 1160.4299999999998,
+        "03/2018": 1160.43,
         "04/2018": 11.1,
         "05/2018": 2031.11,
         "06/2018": 20.35,
-        "07/2018": 2434.4599999999996,
+        "07/2018": 2434.46,
         "08/2018": 117.28,
         "09/2018": 123.16,
-        "10/2018": 2858.6299999999997,
+        "10/2018": 2858.63,
         "11/2018": 115.15,
+        "12/2018": 99.92,
         "01/2019": 3381.38,
-        "02/2019": 118.24000000000001,
+        "02/2019": 118.24,
         "03/2019": 11.7,
+        "04/2019": 2459.31,
         "05/2019": 23.4,
         "06/2019": 129.7,
         "07/2019": 3668.62,
-        "08/2019": 2043.4900000000002,
+        "08/2019": 2043.49,
         "09/2019": 135.22,
         "10/2019": 1605.96,
         "11/2019": 137.22,
         "12/2019": 1156.02,
         "01/2020": 131.32,
         "02/2020": 1766.0,
-        "03/2020": 120.89999999999999,
+        "03/2020": 120.9,
+        "04/2020": 2165.58,
         "05/2020": 136.66,
         "06/2020": 3570.02,
-        "07/2020": 133.76999999999998,
+        "07/2020": 133.77,
         "08/2020": 269.65,
         "09/2020": 2776.08,
         "10/2020": 1610.33,
-        "11/2020": 3951.9599999999996,
+        "11/2020": 3951.96,
         "12/2020": 783.49,
         "01/2021": 1812.05,
         "02/2021": 1187.21,
         "03/2021": 143.44,
-        "04/2021": 1046.3600000000001,
+        "04/2021": 1046.36,
         "05/2021": 8.2,
-        "06/2021": 2065.2599999999998,
+        "06/2021": 2065.26,
         "07/2021": 281.4,
+        "08/2021": 1898.78,
         "09/2021": 8.2,
         "10/2021": 1870.2,
         "11/2021": 8.2,
+        "12/2021": 1766.21,
         "01/2022": 8.2,
         "02/2022": 1634.2,
-        "03/2022": 2162.7200000000003,
+        "03/2022": 2162.72,
         "04/2022": 8.4,
-        "05/2022": 2027.0500000000002,
+        "05/2022": 2027.05,
         "06/2022": 1082.15,
         "07/2022": 241.96,
-        "08/2022": 1600.6000000000001,
+        "08/2022": 1600.6,
         "09/2022": 166.82,
         "10/2022": 1923.39,
         "11/2022": 1131.52,
         "12/2022": 10.5,
-        "01/2024": 124.35,
-        "02/2024": 2264.6600000000003,
-        "03/2024": 25.04,
-        "04/2024": 1691.7600000000002,
-        "05/2024": 1387.86,
-        "01/2016": 1283.6200000000001,
-        "08/2015": 1198.75,
-        "10/2015": 1148.59,
-        "04/2019": 2459.31,
-        "08/2021": 1898.78,
-        "12/2021": 1766.21,
         "02/2023": 1104.84,
         "03/2023": 1584.68,
         "05/2023": 1679.94,
-        "07/2023": 2610.6899999999996,
+        "07/2023": 2610.69,
         "08/2023": 1862.58,
-        "11/2023": 2341.1600000000003,
+        "09/2023": 471.31,
+        "10/2023": 218.16,
+        "11/2023": 2341.16,
+        "12/2023": 235.0,
+        "01/2024": 124.35,
+        "02/2024": 2264.66,
+        "03/2024": 25.04,
+        "04/2024": 1691.76,
+        "05/2024": 1387.86,
+        "06/2024": 182.83,
+        "07/2024": 301.69,
         "08/2024": 3155.66,
+        "09/2024": 1886.0,
         "11/2024": 2436.83,
-        "01/2025": 3542.3199999999997,
+        "12/2024": 1320.78,
+        "01/2025": 3542.32,
+        "03/2025": 40.5,
         "05/2025": 3300.48,
         "06/2025": 2041.8,
         "07/2025": 1955.1,
-        "11/2025": 3892.7799999999997,
+        "11/2025": 3892.78,
+        "12/2025": 430.0,
         "01/2026": 2586.12,
-        "12/2015": 40.8,
-        "06/2015": 9.8,
-        "09/2015": 25.2,
-        "07/2024": 301.69,
-        "10/2023": 218.16,
-        "04/2026": 188.33,
-        "06/2024": 182.82999999999998,
-        "12/2018": 99.92,
-        "04/2020": 2165.58,
         "02/2026": 103.42,
         "03/2026": 127.36,
-        "09/2023": 471.31,
-        "03/2025": 40.5,
-        "12/2023": 235.0,
-        "12/2024": 1320.78,
-        "12/2025": 430.0,
-        "02/2016": 61.2,
-        "07/2016": 87.8,
-        "09/2024": 1886.0
+        "04/2026": 188.33
+      },
+      "Encargos Sociais (INSS)": {
+        "06/2015": 666.62,
+        "07/2015": 666.63,
+        "08/2015": 422.34,
+        "09/2015": 666.62,
+        "10/2015": 666.62,
+        "11/2015": 666.62,
+        "12/2015": 910.9,
+        "01/2016": 666.62,
+        "02/2016": 695.14,
+        "03/2016": 743.71,
+        "04/2016": 743.71,
+        "05/2016": 743.71,
+        "06/2016": 743.72,
+        "07/2016": 743.71,
+        "08/2016": 743.72,
+        "09/2016": 743.71,
+        "10/2016": 743.72,
+        "11/2016": 743.71,
+        "12/2016": 743.71,
+        "01/2017": 743.71,
+        "02/2017": 761.38,
+        "03/2017": 761.38,
+        "04/2017": 792.37,
+        "05/2017": 792.37,
+        "06/2017": 792.37,
+        "07/2017": 792.37,
+        "08/2017": 792.37,
+        "09/2017": 792.37,
+        "10/2017": 290.47,
+        "11/2017": 290.47,
+        "12/2017": 1796.17,
+        "01/2018": 792.37,
+        "02/2018": 792.37,
+        "03/2018": 792.37,
+        "04/2018": 812.44,
+        "05/2018": 976.44,
+        "06/2018": 812.44,
+        "07/2018": 812.44,
+        "08/2018": 812.44,
+        "09/2018": 812.44,
+        "10/2018": 817.71,
+        "11/2018": 817.71,
+        "12/2018": 817.71,
+        "01/2019": 817.71,
+        "02/2019": 831.35,
+        "03/2019": 831.35,
+        "04/2019": 860.06,
+        "05/2019": 860.06,
+        "06/2019": 1542.06,
+        "07/2019": 550.68,
+        "08/2019": 860.06,
+        "09/2019": 860.06,
+        "10/2019": 860.06,
+        "11/2019": 860.06,
+        "12/2019": 860.06,
+        "01/2020": 860.06,
+        "02/2020": 610.08,
+        "03/2020": 902.17,
+        "05/2020": 1533.64,
+        "06/2020": 647.9,
+        "07/2020": 323.95,
+        "08/2020": 323.95,
+        "09/2020": 2058.61,
+        "10/2020": 902.17,
+        "11/2020": 902.17,
+        "12/2020": 1734.66,
+        "01/2021": 1188.17,
+        "02/2021": 341.0,
+        "03/2021": 950.73,
+        "04/2021": 950.73,
+        "05/2021": 950.73,
+        "07/2021": 1814.95,
+        "08/2021": 1004.63,
+        "09/2021": 1614.36,
+        "10/2021": 969.74,
+        "11/2021": 950.73,
+        "12/2021": 950.73,
+        "01/2022": 1049.73,
+        "03/2022": 2544.4,
+        "04/2022": 1134.21,
+        "05/2022": 1035.21,
+        "06/2022": 1045.21,
+        "07/2022": 1035.21,
+        "08/2022": 2035.26,
+        "09/2022": 1035.21,
+        "10/2022": 1035.21,
+        "11/2022": 1035.21,
+        "12/2022": 1035.21,
+        "01/2023": 1167.21,
+        "02/2023": 1063.11,
+        "03/2023": 1237.49,
+        "04/2023": 1128.59,
+        "05/2023": 1381.59,
+        "06/2023": 1134.17,
+        "07/2023": 1134.17,
+        "08/2023": 1134.17,
+        "09/2023": 3749.61,
+        "10/2023": 1134.17,
+        "11/2023": 1134.17,
+        "12/2023": 1326.67,
+        "01/2024": 1134.17
+      },
+      "Aquisições": {
+        "06/2015": 6460.0,
+        "12/2015": 3810.0,
+        "01/2016": 1700.0,
+        "02/2016": 1700.0,
+        "01/2017": 463.0,
+        "02/2017": 463.0,
+        "12/2017": 1089.0,
+        "07/2019": 359.0,
+        "05/2020": 332.0,
+        "06/2020": 332.0,
+        "11/2020": 3700.0,
+        "01/2021": 227.5,
+        "05/2021": 227.5,
+        "08/2021": 2063.22,
+        "12/2023": 680.0,
+        "06/2024": 8025.0,
+        "07/2024": 2550.0,
+        "08/2024": 2500.0,
+        "09/2024": 2500.0,
+        "10/2024": 6200.83,
+        "11/2024": 6200.0,
+        "12/2024": 6200.0,
+        "01/2025": 3700.0,
+        "02/2025": 3700.0,
+        "03/2025": 3700.0,
+        "10/2025": 2475.0,
+        "11/2025": 4033.0
+      },
+      "Encargos Sociais e Impostos": {
+        "02/2024": 2246.1,
+        "03/2024": 1821.34,
+        "04/2024": 1861.54,
+        "05/2024": 2153.0,
+        "06/2024": 2056.54,
+        "07/2024": 3555.94,
+        "08/2024": 2508.26,
+        "09/2024": 1956.05,
+        "10/2024": 1615.47,
+        "11/2024": 1890.69,
+        "12/2024": 1913.0,
+        "01/2025": 3794.24,
+        "02/2025": 2760.02,
+        "03/2025": 2999.07,
+        "04/2025": 2006.64,
+        "05/2025": 2100.63,
+        "06/2025": 3218.13,
+        "07/2025": 2090.07,
+        "08/2025": 2289.21,
+        "09/2025": 2468.7,
+        "10/2025": 2512.2,
+        "11/2025": 4188.62,
+        "01/2026": 3025.56,
+        "04/2026": 6848.57
+      },
+      "Impostos e Taxas": {
+        "06/2015": 147.44,
+        "07/2015": 147.44,
+        "08/2015": 147.44,
+        "09/2015": 147.44,
+        "10/2015": 147.44,
+        "11/2015": 147.44,
+        "12/2015": 147.44,
+        "01/2016": 147.44,
+        "02/2016": 148.59,
+        "03/2016": 165.68,
+        "04/2016": 165.68,
+        "05/2016": 165.68,
+        "06/2016": 165.68,
+        "07/2016": 165.68,
+        "08/2016": 165.68,
+        "09/2016": 295.85,
+        "10/2016": 165.68,
+        "11/2016": 199.68,
+        "12/2016": 179.68,
+        "01/2017": 188.68,
+        "02/2017": 179.68,
+        "03/2017": 179.68,
+        "04/2017": 190.58,
+        "05/2017": 207.0,
+        "06/2017": 207.0,
+        "07/2017": 207.0,
+        "08/2017": 207.0,
+        "09/2017": 245.42,
+        "11/2017": 206.5,
+        "12/2017": 441.56,
+        "01/2018": 220.78,
+        "02/2018": 207.28,
+        "03/2018": 229.72,
+        "04/2018": 225.18,
+        "05/2018": 1056.57,
+        "06/2018": 270.67,
+        "07/2018": 262.77,
+        "08/2018": 250.3,
+        "09/2018": 215.17,
+        "10/2018": 273.14,
+        "11/2018": 268.32,
+        "12/2018": 254.59,
+        "01/2019": 239.9,
+        "02/2019": 20.93,
+        "03/2019": 4638.67,
+        "04/2019": 249.44,
+        "05/2019": 335.1,
+        "06/2019": 271.87,
+        "07/2019": 257.71,
+        "08/2019": 301.58,
+        "09/2019": 295.35,
+        "10/2019": 274.42,
+        "11/2019": 273.92,
+        "12/2019": 273.42,
+        "01/2020": 317.3,
+        "02/2020": 272.63,
+        "03/2020": 264.16,
+        "05/2020": 15.08,
+        "07/2020": 907.15,
+        "09/2020": 834.27,
+        "10/2020": 269.43,
+        "11/2020": 306.65,
+        "12/2020": 320.31,
+        "01/2021": 421.38,
+        "03/2021": 635.24,
+        "04/2021": 309.45,
+        "05/2021": 290.61,
+        "06/2021": 331.15,
+        "07/2021": 292.27,
+        "08/2021": 339.18,
+        "09/2021": 353.04,
+        "10/2021": 301.99,
+        "11/2021": 388.81,
+        "12/2021": 339.1,
+        "01/2022": 382.7,
+        "03/2022": 38.02,
+        "04/2022": 394.32,
+        "05/2022": 970.4,
+        "06/2022": 455.1,
+        "07/2022": 366.87,
+        "08/2022": 380.32,
+        "09/2022": 950.02,
+        "10/2022": 21.11,
+        "11/2022": 545.93,
+        "12/2022": 1754.1,
+        "01/2023": 425.47,
+        "02/2023": 400.14,
+        "03/2023": 559.41,
+        "04/2023": 440.26,
+        "05/2023": 498.35,
+        "06/2023": 408.96,
+        "07/2023": 405.08,
+        "08/2023": 405.35,
+        "09/2023": 2630.25,
+        "10/2023": 525.64,
+        "11/2023": 470.01,
+        "12/2023": 534.3,
+        "01/2024": 472.12,
+        "06/2024": 8.0,
+        "08/2024": 5875.84,
+        "11/2024": 99.64,
+        "05/2025": 103.03,
+        "07/2025": 103.03
       },
       "Despesas Financeiras": {
-        "12/2016": 176.38,
-        "01/2016": 108.72,
-        "12/2015": 113.16,
         "06/2015": 91.0,
+        "07/2015": 91.47,
         "08/2015": 124.35,
         "09/2015": 122.82,
-        "10/2015": 124.38999999999999,
-        "11/2015": 177.89999999999998,
-        "08/2017": 203.1,
-        "07/2017": 209.3,
-        "06/2017": 190.5,
-        "05/2017": 191.76,
-        "04/2017": 178.7,
-        "03/2017": 223.0,
-        "02/2017": 161.25,
+        "10/2015": 124.39,
+        "11/2015": 177.9,
+        "12/2015": 113.16,
+        "01/2016": 108.72,
+        "02/2016": 112.86,
+        "03/2016": 157.73,
+        "04/2016": 114.24,
+        "05/2016": 172.36,
+        "06/2016": 172.3,
+        "07/2016": 129.3,
+        "08/2016": 240.3,
+        "09/2016": 193.56,
+        "10/2016": 187.75,
+        "11/2016": 172.3,
+        "12/2016": 176.38,
         "01/2017": 165.2,
+        "02/2017": 161.25,
+        "03/2017": 223.0,
+        "04/2017": 178.7,
+        "05/2017": 191.76,
+        "06/2017": 190.5,
+        "07/2017": 209.3,
+        "08/2017": 203.1,
         "09/2017": 185.4,
-        "10/2017": 236.04999999999998,
+        "10/2017": 236.05,
         "11/2017": 267.28,
-        "12/2017": 223.38000000000002,
+        "12/2017": 223.38,
         "01/2018": 219.7,
         "02/2018": 203.1,
         "03/2018": 218.0,
@@ -2570,92 +3573,94 @@
         "01/2020": 100.0,
         "02/2020": 128.89,
         "03/2020": 93.5,
+        "04/2020": 49.0,
         "05/2020": 124.87,
         "06/2020": 137.03,
         "07/2020": 135.3,
         "08/2020": 115.5,
         "09/2020": 420.07,
         "10/2020": 99.0,
-        "11/2020": 89.66000000000001,
+        "11/2020": 89.66,
         "12/2020": 260.15,
         "01/2021": 165.5,
         "02/2021": 89.9,
-        "03/2021": 79.53999999999999,
+        "03/2021": 79.54,
         "04/2021": 89.9,
-        "05/2021": 194.67000000000002,
-        "06/2021": 305.34999999999997,
-        "07/2021": 188.76999999999998,
+        "05/2021": 194.67,
+        "06/2021": 305.35,
+        "07/2021": 188.77,
         "08/2021": 257.38,
         "09/2021": 353.4,
         "10/2021": 232.06,
-        "11/2021": 348.15999999999997,
-        "12/2021": 212.47000000000003,
+        "11/2021": 348.16,
+        "12/2021": 212.47,
         "01/2022": 219.78,
         "02/2022": 195.76,
         "03/2022": 400.85,
-        "04/2022": 217.70000000000002,
-        "05/2022": 550.1700000000001,
+        "04/2022": 217.7,
+        "05/2022": 550.17,
         "06/2022": 215.33,
-        "07/2022": 216.92000000000002,
-        "08/2022": 585.8299999999999,
+        "07/2022": 216.92,
+        "08/2022": 585.83,
         "09/2022": 614.08,
-        "10/2022": 328.03999999999996,
+        "10/2022": 328.04,
         "11/2022": 288.02,
-        "12/2022": 323.14000000000004,
+        "12/2022": 323.14,
         "01/2023": 226.03,
-        "02/2023": 214.70000000000002,
+        "02/2023": 214.7,
         "03/2023": 181.03,
         "04/2023": 192.1,
-        "05/2023": 318.5899999999999,
-        "06/2023": 199.01999999999998,
-        "07/2023": 309.18999999999994,
-        "08/2023": 232.35999999999999,
+        "05/2023": 318.59,
+        "06/2023": 199.02,
+        "07/2023": 309.19,
+        "08/2023": 232.36,
+        "09/2023": 52.67,
         "10/2023": 194.64,
         "11/2023": 238.87,
         "12/2023": 214.55,
-        "03/2024": 177.39,
-        "12/2024": 264.4,
         "01/2024": 36.03,
         "02/2024": 25.79,
-        "04/2024": 219.57999999999998,
-        "05/2024": 335.80000000000007,
+        "03/2024": 177.39,
+        "04/2024": 219.58,
+        "05/2024": 335.8,
+        "06/2024": 263.46,
         "07/2024": 246.67,
         "08/2024": 299.53,
-        "11/2024": 372.46000000000004,
-        "01/2025": 263.55,
-        "04/2025": 330.85,
-        "05/2025": 160.44,
-        "08/2025": 231.28,
-        "11/2025": 259.45000000000005,
-        "12/2025": 150.02,
-        "01/2026": 117.77999999999999,
-        "04/2026": 1324.7099999999998,
-        "09/2023": 52.67,
-        "06/2024": 263.46000000000004,
+        "09/2024": 183.51,
         "10/2024": 307.52,
+        "11/2024": 372.46,
+        "12/2024": 264.4,
+        "01/2025": 263.55,
         "02/2025": 203.14,
         "03/2025": 242.16,
-        "10/2025": 177.67,
-        "06/2025": 63.37,
-        "07/2025": 93.4,
-        "02/2026": 2.97,
-        "03/2026": 2.98,
-        "04/2020": 49.0,
-        "02/2016": 112.86,
-        "07/2016": 129.3,
-        "09/2024": 183.51
+        "04/2025": 330.85,
+        "05/2025": 224.76,
+        "06/2025": 224.35,
+        "07/2025": 272.0,
+        "08/2025": 338.86,
+        "09/2025": 247.19,
+        "10/2025": 285.36,
+        "11/2025": 377.25,
+        "12/2025": 297.39,
+        "01/2026": 236.42,
+        "02/2026": 106.77,
+        "03/2026": 104.63,
+        "04/2026": 1484.75
       },
       "Multas e Juros de Atraso": {
-        "12/2016": 0.43,
         "12/2015": 57.67,
-        "08/2017": 0.85,
-        "07/2017": 0.42,
-        "06/2017": 35.65,
-        "05/2017": 0.42,
-        "04/2017": 52.33,
-        "03/2017": 0.41,
-        "02/2017": 0.85,
+        "08/2016": 3.43,
+        "10/2016": 3.49,
+        "11/2016": 1.82,
+        "12/2016": 0.43,
         "01/2017": 0.42,
+        "02/2017": 0.85,
+        "03/2017": 0.41,
+        "04/2017": 52.33,
+        "05/2017": 0.42,
+        "06/2017": 35.65,
+        "07/2017": 0.42,
+        "08/2017": 0.85,
         "09/2017": 0.86,
         "12/2017": 159.66,
         "01/2018": 0.86,
@@ -2668,398 +3673,749 @@
         "10/2018": 2.39,
         "11/2018": 0.92,
         "02/2019": 10.72,
+        "04/2025": 30.09,
+        "05/2025": 62.14,
+        "06/2025": 60.51,
         "08/2025": 11.76,
         "01/2026": 141.69
-      },
-      "Aquisições": {
-        "01/2016": 1700.0,
-        "12/2015": 3810.0,
-        "06/2015": 6460.0,
-        "02/2017": 463.0,
-        "01/2017": 463.0,
-        "12/2017": 1089.0,
-        "10/2025": 2475.0,
-        "11/2025": 4033.0,
-        "07/2019": 359.0,
-        "05/2020": 332.0,
-        "06/2020": 332.0,
-        "11/2020": 3700.0,
-        "01/2021": 227.5,
-        "05/2021": 227.5,
-        "08/2021": 2063.22,
-        "12/2023": 680.0,
-        "06/2024": 8025.0,
-        "07/2024": 2550.0,
-        "08/2024": 2500.0,
-        "10/2024": 6200.83,
-        "11/2024": 6200.0,
-        "12/2024": 6200.0,
-        "01/2025": 3700.0,
-        "02/2025": 3700.0,
-        "03/2025": 3700.0,
-        "02/2016": 1700.0,
-        "09/2024": 2500.0
-      },
-      "Serviços de Terceiros (avulsos)": {
-        "01/2016": 700.0,
-        "12/2015": 9893.3,
-        "03/2017": 200.0,
-        "11/2018": 24000.0,
-        "12/2018": 15000.0,
-        "02/2019": 15000.0,
-        "05/2019": 12.5,
-        "06/2019": 250.0,
-        "11/2019": 1310.0,
-        "08/2020": 1599.99,
-        "10/2020": 700.0,
-        "05/2021": 395.0,
-        "09/2021": 1300.0,
-        "12/2021": 1071.75,
-        "01/2022": 1850.0,
-        "03/2022": 2331.75,
-        "05/2022": 4180.0,
-        "06/2022": 2700.0,
-        "08/2022": 4081.99,
-        "11/2022": 2279.27,
-        "01/2023": 1253.75,
-        "04/2023": 280.0,
-        "07/2023": 2206.66,
-        "09/2023": 2000.0,
-        "01/2024": 6456.0,
-        "03/2024": 5217.0,
-        "04/2024": 3552.0,
-        "05/2024": 210.0,
-        "06/2024": 862.0,
-        "11/2024": 3473.1,
-        "12/2024": 1821.0,
-        "01/2025": 2226.0,
-        "03/2025": 1480.0,
-        "04/2025": 11092.15,
-        "05/2025": 6105.0,
-        "07/2025": 6908.2,
-        "08/2025": 3294.3999999999996,
-        "11/2025": 1304.6599999999999,
-        "02/2026": 4380.45,
-        "03/2026": 1240.0,
-        "04/2026": 14470.0,
-        "10/2021": 1737.51,
-        "11/2021": 1137.5,
-        "06/2015": 290.0,
-        "11/2023": 1721.5,
-        "07/2024": 2260.0,
-        "01/2017": 400.0,
-        "04/2019": 947.57,
-        "01/2020": 1116.12,
-        "09/2020": 1245.14,
-        "09/2017": 536.14,
-        "05/2018": 1035.94,
-        "01/2021": 868.5699999999999,
-        "08/2021": 1844.6,
-        "01/2026": 4705.76,
-        "11/2017": 3500.0,
-        "12/2017": 7000.0,
-        "11/2020": 2262.0,
-        "12/2020": 2262.0,
-        "05/2023": 3059.16,
-        "06/2023": 3059.16,
-        "03/2018": 820.0,
-        "10/2019": 530.0,
-        "03/2020": 1269.8,
-        "10/2022": 360.0,
-        "03/2023": 2266.0,
-        "08/2023": 979.5,
-        "04/2020": 1269.8,
-        "09/2022": 852.44,
-        "12/2022": 1017.36,
-        "02/2023": 858.71,
-        "02/2024": 4731.0,
-        "08/2024": 2480.0,
-        "10/2024": 2480.0,
-        "02/2025": 4030.0,
-        "07/2022": 3780.0,
-        "12/2023": 2581.0,
-        "06/2025": 330.0,
-        "12/2025": 2100.0,
-        "07/2016": 100.0,
-        "09/2024": 330.0
-      },
-      "Reformas e Melhorias": {
-        "10/2020": 5600.0,
-        "05/2021": 8194.0,
-        "09/2022": 43400.0,
-        "10/2022": 3500.0,
-        "11/2022": 10500.0,
-        "12/2022": 3400.0,
-        "04/2024": 12088.63,
-        "05/2024": 12088.63,
-        "06/2024": 12088.63,
-        "07/2024": 12088.63,
-        "08/2024": 1476.93,
-        "10/2024": 1476.93,
-        "11/2024": 13422.0,
-        "12/2024": 11862.6,
-        "01/2025": 11862.6,
-        "03/2025": 11630.15,
-        "04/2025": 22873.04,
-        "06/2025": 5400.0,
-        "08/2021": 3190.0,
-        "09/2021": 3190.0,
-        "10/2021": 1680.0,
-        "07/2023": 5000.0,
-        "12/2025": 6318.0,
-        "02/2025": 360.0,
-        "07/2025": 3300.0,
-        "11/2025": 7900.0,
-        "09/2024": 1476.93
-      },
-      "Encargos Sociais e Impostos": {
-        "02/2024": 2246.1,
-        "03/2024": 1821.34,
-        "04/2024": 1861.54,
-        "05/2024": 2153.0,
-        "06/2024": 2056.54,
-        "07/2024": 3555.9399999999996,
-        "08/2024": 2508.26,
-        "10/2024": 1615.47,
-        "11/2024": 1890.6899999999998,
-        "12/2024": 1913.0,
-        "01/2025": 3794.24,
-        "02/2025": 2760.02,
-        "03/2025": 2999.07,
-        "04/2025": 2006.6399999999999,
-        "05/2025": 2100.63,
-        "06/2025": 3218.13,
-        "07/2025": 2090.07,
-        "08/2025": 2289.21,
-        "10/2025": 2512.2,
-        "11/2025": 4188.62,
-        "01/2026": 3025.56,
-        "04/2026": 6848.57,
-        "09/2024": 1956.05
       }
     }
   },
   "receitas": {
-    "total": 2288162.75,
+    "total": 2302157.61,
     "categorias": {
-      "Receita Ordinária de Condomínio": 1980151.9,
-      "Outras Receitas (Rateios/Extraordinárias)": 307138.42,
+      "Receita Ordinária de Condomínio": 1994111.22,
+      "Outras Receitas (Rateios/Extraordinárias)": 307173.96,
       "Ressarcimentos e Receitas Diversas": 872.43
     },
     "subcategorias": [
       {
         "nome": "Taxa de Condomínio",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 1210508.53
+        "total": 1222667.85,
+        "por_ano": {
+          "2015": 38011.65,
+          "2016": 62311.27,
+          "2017": 75307.68,
+          "2018": 86325.9,
+          "2019": 109967.76,
+          "2020": 124389.16,
+          "2021": 105469.17,
+          "2022": 110232.53,
+          "2023": 152816.18,
+          "2024": 139895.22,
+          "2025": 160275.19,
+          "2026": 57666.14
+        }
       },
       {
         "nome": "Garagem",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 202530.49
+        "total": 202530.49,
+        "por_ano": {
+          "2015": 6647.43,
+          "2016": 11279.39,
+          "2017": 13605.01,
+          "2018": 15596.49,
+          "2019": 16537.94,
+          "2020": 15708.41,
+          "2021": 18781.17,
+          "2022": 19833.5,
+          "2023": 20198.46,
+          "2024": 25145.18,
+          "2025": 28916.54,
+          "2026": 10280.97
+        }
       },
       {
         "nome": "Água",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 157003.8
+        "total": 157003.8,
+        "por_ano": {
+          "2015": 5169.26,
+          "2016": 10428.48,
+          "2017": 11295.23,
+          "2018": 11423.67,
+          "2019": 13638.63,
+          "2020": 11463.39,
+          "2021": 14171.52,
+          "2022": 14480.58,
+          "2023": 18503.64,
+          "2024": 19050.9,
+          "2025": 21289.76,
+          "2026": 6088.74
+        }
       },
       {
         "nome": "Rateio AGE 27/08/24",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 138537.55
+        "total": 138537.55,
+        "por_ano": {
+          "2024": 1129.07,
+          "2025": 136554.5,
+          "2026": 853.98
+        }
       },
       {
         "nome": "Fundo de Reserva",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 132645.04
+        "total": 132645.04,
+        "por_ano": {
+          "2015": 4338.71,
+          "2016": 7358.78,
+          "2017": 8891.0,
+          "2018": 10181.85,
+          "2019": 10833.26,
+          "2020": 10257.24,
+          "2021": 12320.76,
+          "2022": 13006.93,
+          "2023": 13242.43,
+          "2024": 16504.16,
+          "2025": 18915.22,
+          "2026": 6794.7
+        }
       },
       {
         "nome": "Gás",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 114589.1
+        "total": 114589.1,
+        "por_ano": {
+          "2015": 2794.71,
+          "2016": 5097.69,
+          "2017": 7000.26,
+          "2018": 9596.77,
+          "2019": 12247.97,
+          "2020": 14862.51,
+          "2021": 9778.16,
+          "2022": 11595.99,
+          "2023": 11266.96,
+          "2024": 13126.11,
+          "2025": 13281.45,
+          "2026": 3940.52
+        }
       },
       {
         "nome": "Rateio Pintura",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 49068.68
+        "total": 49068.68,
+        "por_ano": {
+          "2018": 29726.17,
+          "2019": 19342.51
+        }
       },
       {
         "nome": "Rateio cfe AGO (01/07/23)",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 31632.54
+        "total": 31632.54,
+        "por_ano": {
+          "2023": 14360.42,
+          "2024": 17272.12
+        }
       },
       {
         "nome": "Chamada de Capital - AGE 05/04/2025",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 34493.7
+        "total": 34493.7,
+        "por_ano": {
+          "2025": 34493.7
+        }
       },
       {
         "nome": "Rateio cfe AGE - 08/06/2024",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 34999.86
+        "total": 34999.86,
+        "por_ano": {
+          "2024": 34746.72,
+          "2025": 253.14
+        }
       },
       {
         "nome": "Rateio cfe AGO (09/07/22)",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 27434.3
+        "total": 27434.3,
+        "por_ano": {
+          "2022": 14091.32,
+          "2023": 13342.98
+        }
       },
       {
         "nome": "Rateio cfe assembleia",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 25564.42
+        "total": 25564.42,
+        "por_ano": {
+          "2024": 25564.42
+        }
       },
       {
         "nome": "Reteio cfe assembleia",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 19935.37
+        "total": 19935.37,
+        "por_ano": {
+          "2023": 423.11,
+          "2024": 19512.26
+        }
       },
       {
         "nome": "Ressarcimento Seguro",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 15130.0
+        "total": 15130.0,
+        "por_ano": {
+          "2024": 15130.0
+        }
       },
       {
         "nome": "Aluguel",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 14400.0
+        "total": 16200.0,
+        "por_ano": {
+          "2025": 9000.0,
+          "2026": 7200.0
+        }
       },
       {
         "nome": "Rt Impermeabilização",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 10501.05
+        "total": 10501.05,
+        "por_ano": {
+          "2017": 10501.05
+        }
       },
       {
         "nome": "Receita à Identificar",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 10106.08
+        "total": 10106.08,
+        "por_ano": {
+          "2018": 906.33,
+          "2019": 4964.54,
+          "2020": 4235.21
+        }
       },
       {
         "nome": "Rateio Melhorias",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 10000.02
+        "total": 10000.02,
+        "por_ano": {
+          "2022": 9038.11,
+          "2023": 527.95,
+          "2025": 433.96
+        }
       },
       {
         "nome": "Rat Salão Gourmet",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 10007.35
+        "total": 10007.35,
+        "por_ano": {
+          "2015": 9915.3,
+          "2016": 92.05
+        }
       },
       {
         "nome": "Troca regulador e medidores de gás",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 7546.78
+        "total": 7546.78,
+        "por_ano": {
+          "2020": 7546.78
+        }
       },
       {
         "nome": "Juros Aplicação",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 7934.99
+        "total": 7970.53,
+        "por_ano": {
+          "2015": 503.55,
+          "2016": 695.41,
+          "2017": 21.4,
+          "2018": 370.89,
+          "2019": 327.15,
+          "2020": 372.03,
+          "2021": 1481.61,
+          "2022": 3100.32,
+          "2023": 331.18,
+          "2024": 766.99
+        }
       },
       {
         "nome": "Multas",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 6423.88
+        "total": 6423.88,
+        "por_ano": {
+          "2015": 117.47,
+          "2016": 186.95,
+          "2017": 79.58,
+          "2018": 217.11,
+          "2019": 1526.17,
+          "2020": 451.37,
+          "2021": 478.12,
+          "2022": 211.5,
+          "2023": 1001.5,
+          "2024": 504.86,
+          "2025": 1189.99,
+          "2026": 459.26
+        }
       },
       {
         "nome": "Conserto Elevador",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 3590.0
+        "total": 3590.0,
+        "por_ano": {
+          "2024": 3590.0
+        }
       },
       {
         "nome": "Salão de Festa - Uso",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 2650.0
+        "total": 2650.0,
+        "por_ano": {
+          "2016": 150.0,
+          "2017": 350.0,
+          "2018": 500.0,
+          "2021": 150.0,
+          "2022": 550.0,
+          "2023": 350.0,
+          "2024": 50.0,
+          "2025": 450.0,
+          "2026": 100.0
+        }
       },
       {
         "nome": "Juros",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 1747.24
+        "total": 1747.24,
+        "por_ano": {
+          "2017": 157.82,
+          "2018": 297.75,
+          "2019": 1082.2,
+          "2020": 15.53,
+          "2021": 16.08,
+          "2023": 58.06,
+          "2025": 119.8
+        }
       },
       {
         "nome": "Juros Poupança (4029-0)",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 1614.66
+        "total": 1614.66,
+        "por_ano": {
+          "2015": 436.28,
+          "2016": 6.53,
+          "2017": 6.85,
+          "2018": 4.22,
+          "2019": 4.1,
+          "2020": 2.04,
+          "2021": 2.32,
+          "2022": 6.99,
+          "2023": 74.5,
+          "2024": 1070.83
+        }
       },
       {
         "nome": "Diferença Fornecimento de Água",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 1484.01
+        "total": 1484.01,
+        "por_ano": {
+          "2023": 1484.01
+        }
       },
       {
         "nome": "Baixa Parcial",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 1207.26
+        "total": 1207.26,
+        "por_ano": {
+          "2023": 494.84,
+          "2026": 712.42
+        }
       },
       {
         "nome": "Correção Aplicação CEF",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 1197.63
+        "total": 1197.63,
+        "por_ano": {
+          "2025": 791.1,
+          "2026": 406.53
+        }
       },
       {
         "nome": "Ressarcimentos",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 859.39
+        "total": 859.39,
+        "por_ano": {
+          "2018": 803.25,
+          "2022": 10.76,
+          "2023": 17.85,
+          "2024": 4.92,
+          "2025": 22.61
+        }
       },
       {
         "nome": "Energia Elétrica",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 468.52
+        "total": 468.52,
+        "por_ano": {
+          "2025": 314.77,
+          "2026": 153.75
+        }
       },
       {
         "nome": "Rendimento Aplicação Unicred (75)",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 380.56
+        "total": 380.56,
+        "por_ano": {
+          "2023": 380.56
+        }
       },
       {
         "nome": "Juros e Multas",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 267.56
+        "total": 267.56,
+        "por_ano": {
+          "2023": 267.56
+        }
       },
       {
         "nome": "Devolução de Despesa Indevida",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 257.39
+        "total": 257.39,
+        "por_ano": {
+          "2024": 257.39
+        }
       },
       {
         "nome": "Correção Caixa Econômica Federal - Poupança (739942363-7)",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 189.53
+        "total": 189.53,
+        "por_ano": {
+          "2025": 137.15,
+          "2026": 52.38
+        }
       },
       {
         "nome": "Multa Regimento Interno/Convenção",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 195.09
+        "total": 195.09,
+        "por_ano": {
+          "2016": 47.93,
+          "2022": 147.16
+        }
       },
       {
         "nome": "Controle/Tag",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 100.0
+        "total": 100.0,
+        "por_ano": {
+          "2025": 100.0
+        }
       },
       {
         "nome": "Estorno Bancário",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 71.43
+        "total": 71.43,
+        "por_ano": {
+          "2020": 71.43
+        }
       },
       {
         "nome": "Tarifas Bancárias",
         "categoria": "Receita Ordinária de Condomínio",
-        "total": 14.7
+        "total": 14.7,
+        "por_ano": {
+          "2019": 14.7
+        }
       },
       {
         "nome": "Rendimento Aplicação Unicred (132)",
         "categoria": "Outras Receitas (Rateios/Extraordinárias)",
-        "total": 1.82
+        "total": 1.82,
+        "por_ano": {
+          "2023": 1.82
+        }
       },
       {
         "nome": "Pagamento de Taxa em duplicidade",
         "categoria": "Ressarcimentos e Receitas Diversas",
-        "total": 872.43
+        "total": 872.43,
+        "por_ano": {
+          "2016": 872.43
+        }
       }
-    ]
+    ],
+    "categoria_por_mes": {
+      "Receita Ordinária de Condomínio": {
+        "06/2015": 8490.89,
+        "07/2015": 8971.45,
+        "08/2015": 8797.19,
+        "09/2015": 8207.46,
+        "10/2015": 7169.82,
+        "11/2015": 7379.27,
+        "12/2015": 8063.15,
+        "01/2016": 7046.09,
+        "02/2016": 6754.85,
+        "03/2016": 9154.97,
+        "04/2016": 7827.77,
+        "05/2016": 8722.85,
+        "06/2016": 8360.63,
+        "07/2016": 7015.94,
+        "08/2016": 8469.65,
+        "09/2016": 8199.14,
+        "10/2016": 8285.86,
+        "11/2016": 8778.63,
+        "12/2016": 8046.18,
+        "01/2017": 8270.31,
+        "02/2017": 10130.88,
+        "03/2017": 9876.19,
+        "04/2017": 8571.74,
+        "05/2017": 10625.22,
+        "06/2017": 9351.17,
+        "07/2017": 8353.79,
+        "08/2017": 9611.9,
+        "09/2017": 8076.49,
+        "10/2017": 12024.25,
+        "11/2017": 10073.21,
+        "12/2017": 11371.43,
+        "01/2018": 11651.24,
+        "02/2018": 10937.51,
+        "03/2018": 11489.64,
+        "04/2018": 9237.46,
+        "05/2018": 13466.01,
+        "06/2018": 7694.82,
+        "07/2018": 12403.44,
+        "08/2018": 10590.69,
+        "09/2018": 12053.55,
+        "10/2018": 14705.05,
+        "11/2018": 9657.24,
+        "12/2018": 9752.89,
+        "01/2019": 9030.07,
+        "02/2019": 14988.13,
+        "03/2019": 11128.6,
+        "04/2019": 11981.12,
+        "05/2019": 13464.62,
+        "06/2019": 11865.22,
+        "07/2019": 11187.29,
+        "08/2019": 18668.26,
+        "09/2019": 16137.22,
+        "10/2019": 16934.36,
+        "11/2019": 16687.95,
+        "12/2019": 13775.79,
+        "01/2020": 15204.89,
+        "02/2020": 16521.9,
+        "03/2020": 11153.8,
+        "04/2020": 12159.32,
+        "05/2020": 10397.3,
+        "06/2020": 12896.03,
+        "07/2020": 12579.19,
+        "08/2020": 12347.26,
+        "09/2020": 12772.51,
+        "10/2020": 20824.59,
+        "11/2020": 18230.39,
+        "12/2020": 22060.43,
+        "01/2021": 13217.91,
+        "02/2021": 12934.62,
+        "03/2021": 13815.46,
+        "04/2021": 12163.55,
+        "05/2021": 12603.74,
+        "06/2021": 12841.14,
+        "07/2021": 14750.05,
+        "08/2021": 15128.29,
+        "09/2021": 14580.39,
+        "10/2021": 12221.53,
+        "11/2021": 13759.12,
+        "12/2021": 12999.18,
+        "01/2022": 14261.14,
+        "02/2022": 11963.2,
+        "03/2022": 12156.02,
+        "04/2022": 15018.35,
+        "05/2022": 13422.14,
+        "06/2022": 11980.02,
+        "07/2022": 16083.43,
+        "08/2022": 16674.49,
+        "09/2022": 12752.73,
+        "10/2022": 17296.82,
+        "11/2022": 11602.47,
+        "12/2022": 16150.22,
+        "01/2023": 14513.15,
+        "02/2023": 14093.76,
+        "03/2023": 16655.56,
+        "04/2023": 13954.79,
+        "05/2023": 16926.64,
+        "06/2023": 12727.1,
+        "07/2023": 15976.91,
+        "08/2023": 16260.37,
+        "09/2023": 45707.81,
+        "10/2023": 17368.35,
+        "11/2023": 18290.52,
+        "12/2023": 16363.84,
+        "01/2024": 15430.55,
+        "02/2024": 19345.5,
+        "03/2024": 16974.89,
+        "04/2024": 16504.52,
+        "05/2024": 16635.89,
+        "06/2024": 18458.94,
+        "07/2024": 18151.94,
+        "08/2024": 19311.19,
+        "09/2024": 17115.78,
+        "10/2024": 22674.93,
+        "11/2024": 15562.27,
+        "12/2024": 19189.1,
+        "01/2025": 36649.66,
+        "02/2025": 25897.13,
+        "03/2025": 40032.18,
+        "04/2025": 28617.8,
+        "05/2025": 28197.85,
+        "06/2025": 35003.11,
+        "07/2025": 30573.28,
+        "08/2025": 32189.34,
+        "09/2025": 30629.22,
+        "10/2025": 36093.39,
+        "11/2025": 30002.9,
+        "12/2025": 35656.59,
+        "01/2026": 22880.13,
+        "02/2026": 20876.15,
+        "03/2026": 25334.16,
+        "04/2026": 24193.87
+      },
+      "Outras Receitas (Rateios/Extraordinárias)": {
+        "06/2015": 1732.81,
+        "07/2015": 1891.22,
+        "08/2015": 1823.9,
+        "09/2015": 1854.19,
+        "10/2015": 1687.39,
+        "11/2015": 1716.09,
+        "12/2015": 149.53,
+        "01/2016": 167.05,
+        "02/2016": 103.49,
+        "03/2016": 118.53,
+        "04/2016": 59.27,
+        "05/2016": 148.15,
+        "06/2016": 57.73,
+        "07/2016": 50.54,
+        "08/2016": 148.64,
+        "09/2016": 96.73,
+        "10/2016": 28.52,
+        "11/2016": 1.51,
+        "12/2016": 11.76,
+        "01/2017": 0.81,
+        "02/2017": 100.76,
+        "03/2017": 1.21,
+        "04/2017": 0.7,
+        "05/2017": 0.63,
+        "06/2017": 0.65,
+        "07/2017": 0.66,
+        "08/2017": 101.02,
+        "09/2017": 50.65,
+        "10/2017": 0.57,
+        "11/2017": 1099.85,
+        "12/2017": 9521.79,
+        "01/2018": 162.7,
+        "02/2018": 160.12,
+        "03/2018": 61.58,
+        "04/2018": 814.52,
+        "05/2018": 11.02,
+        "06/2018": 61.28,
+        "07/2018": 679.3,
+        "08/2018": 6299.83,
+        "09/2018": 5941.0,
+        "10/2018": 7840.14,
+        "11/2018": 5216.4,
+        "12/2018": 5062.97,
+        "01/2019": 4832.69,
+        "02/2019": 11597.57,
+        "03/2019": 6687.8,
+        "04/2019": 285.19,
+        "05/2019": 8.58,
+        "06/2019": 8.12,
+        "07/2019": 9.35,
+        "08/2019": 12.76,
+        "09/2019": 667.11,
+        "10/2019": 77.72,
+        "11/2019": 394.1,
+        "12/2019": 57.31,
+        "01/2020": 0.27,
+        "02/2020": 1407.33,
+        "03/2020": 2971.74,
+        "04/2020": 35.54,
+        "05/2020": 30.39,
+        "06/2020": 0.21,
+        "07/2020": 51.32,
+        "08/2020": 19.46,
+        "09/2020": 0.12,
+        "10/2020": 4222.5,
+        "11/2020": 2921.25,
+        "12/2020": 567.36,
+        "02/2021": 0.11,
+        "03/2021": 0.11,
+        "04/2021": 0.11,
+        "05/2021": 0.15,
+        "06/2021": 292.94,
+        "07/2021": 0.19,
+        "08/2021": 302.28,
+        "09/2021": 167.77,
+        "10/2021": 238.59,
+        "11/2021": 218.01,
+        "12/2021": 413.67,
+        "01/2022": 419.07,
+        "02/2022": 343.74,
+        "03/2022": 374.06,
+        "04/2022": 286.75,
+        "05/2022": 504.72,
+        "06/2022": 615.1,
+        "07/2022": 374.17,
+        "08/2022": 4016.61,
+        "09/2022": 2557.59,
+        "10/2022": 3583.8,
+        "11/2022": 10747.08,
+        "12/2022": 3121.97,
+        "01/2023": 2752.6,
+        "02/2023": 2753.18,
+        "03/2023": 3617.69,
+        "04/2023": 2527.15,
+        "05/2023": 2452.98,
+        "06/2023": 91.85,
+        "07/2023": 600.08,
+        "08/2023": 3304.68,
+        "09/2023": 877.22,
+        "10/2023": 3500.44,
+        "11/2023": 3971.78,
+        "12/2023": 3855.56,
+        "01/2024": 9411.57,
+        "02/2024": 27211.99,
+        "03/2024": 10897.81,
+        "04/2024": 11023.2,
+        "05/2024": 10791.64,
+        "06/2024": 8946.26,
+        "07/2024": 11552.5,
+        "08/2024": 6127.86,
+        "09/2024": 5251.99,
+        "10/2024": 6850.8,
+        "11/2024": 4734.54,
+        "12/2024": 5165.49,
+        "01/2025": 614.21,
+        "02/2025": 448.36,
+        "03/2025": 1.01,
+        "04/2025": 15805.39,
+        "05/2025": 3251.09,
+        "06/2025": 3212.0,
+        "07/2025": 3211.99,
+        "08/2025": 3322.39,
+        "09/2025": 3170.89,
+        "10/2025": 3278.97,
+        "11/2025": 332.76,
+        "12/2025": 347.37,
+        "01/2026": 252.53,
+        "02/2026": 502.48,
+        "03/2026": 536.26,
+        "04/2026": 133.81
+      },
+      "Ressarcimentos e Receitas Diversas": {
+        "10/2016": 437.18,
+        "11/2016": 435.25
+      }
+    }
   },
   "reconciliacao": {
     "meses_analisados": 118,
     "meses_exatos": 106,
     "diferenca_agregada": -1624.24,
     "soma_oficial": 2178967.37,
-    "percentual_diferenca": -0.0745,
+    "percentual_diferenca": -0.07,
     "metodo": "Soma linha-a-linha de todos os lancamentos originais (aba Lancamentos Detalhados, ~3000 linhas, 2015-2026), respeitando a hierarquia categoria/subcategoria do extrato para nao contar subtotais em duplicidade.",
     "nota_despesas": "Em 12 dos 118 meses (04/2025 a 04/2026) ha pequenas diferencas de R$30 a R$230 frente ao Total de Despesas oficial do demonstrativo (menos de 1% do total mensal), provavelmente tarifas bancarias no detalhadas no extrato original desses meses.",
     "nota_receitas": "Nao ha campo oficial de Total de Receitas por mes nos demonstrativos de origem (campo do relatorio original vem zerado); o valor usado e a soma direta de todas as linhas de receita lancadas."

@@ -22,7 +22,16 @@ Nomes identificando o condomínio, síndico, administradora e unidades foram rem
 
 ## Estrutura
 
-- `index.html` — dashboard completo (abrir este arquivo)
-- `dashboard_data.json` — dados fonte, para referência/auditoria
-- `app.js` — lógica do dashboard (já embutida em `index.html`)
-- `chartjs_lib.js` — Chart.js v4.4.4 (já embutido em `index.html`)
+- `index.html` — dashboard completo autossuficiente (abrir este arquivo)
+- `dashboard_data.json` — base de dados saneada e auditada (131 meses)
+- `app.js` — lógica do dashboard e renderização de gráficos
+- `chartjs_lib.js` — biblioteca Chart.js v4.4.4 offline
+- `template_full.html` — template estrutural do dashboard
+- `scripts/` — automações do projeto:
+  - `build_dashboard.py` — compilador do dashboard final `index.html`
+  - `sanitize_spreadsheet.py` — saneador e dedupicador da planilha original
+- `dados_sanitizados/` — bases auditadas geradas para exportação:
+  - `Planilha_Financeira_CERC_Sanitizada.xlsx` — pasta de trabalho completa (4 abas)
+  - `Lancamentos_Detalhados_Limpos.csv` — lançamentos dedupicados e reclassificados
+  - `Resumo_Mensal_Limpo.csv` — série mensal histórica auditada (131 meses)
+

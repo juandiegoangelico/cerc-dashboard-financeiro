@@ -105,7 +105,13 @@ function setupMonthNav(){
 
 // ---------- Missing months ----------
 function renderMissingMonths(){
+  const wrap = document.getElementById('missingMonthsWrap');
   const el = document.getElementById('missingMonths');
+  if (!DATA.periodo.meses_faltantes || DATA.periodo.meses_faltantes.length === 0) {
+    wrap.style.display = 'none';
+    return;
+  }
+  wrap.style.display = '';
   el.innerHTML = DATA.periodo.meses_faltantes.map(m => `<span>${m}</span>`).join('');
 }
 
@@ -239,7 +245,7 @@ function renderAnualChart(){
   });
 }
 
-// ---------- Category charts (all-time, not affected by year filter — noted in UI) ----------
+// ---------- Category charts (dinâmicos: respondem a ano e mês) ----------
 function showChartFallback(canvasId){
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
@@ -247,17 +253,64 @@ function showChartFallback(canvasId){
   if (box) box.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);font-size:13px;text-align:center;padding:20px;">Gráfico indisponível offline (biblioteca não carregou).<br>Os dados continuam nas tabelas abaixo.</div>';
 }
 
+function getFilteredCategories(type){
+  const pm = DATA[type].categoria_por_mes;
+  if (!pm) return DATA[type].categorias;
+  const months = monthsForYear(currentYear);
+  const result = {};
+
+  for (const [cat, mDict] of Object.entries(pm)){
+    let sum = 0;
+    if (currentMonth !== 'all') {
+      sum = mDict[currentMonth] || 0;
+    } else if (currentYear === 'all') {
+      sum = Object.values(mDict).reduce((a,b)=>a+b, 0);
+    } else {
+      for (const m of months) {
+        sum += mDict[m.competencia] || 0;
+      }
+    }
+    if (sum > 0.009 || (currentYear === 'all' && currentMonth === 'all')) {
+      result[cat] = Math.round((sum + Number.EPSILON) * 100) / 100;
+    }
+  }
+  return result;
+}
+
 function renderCategoryCharts(){
   if (!CHARTS_OK) { showChartFallback('chartDespCat'); showChartFallback('chartRecCat'); return; }
-  const despCats = DATA.despesas.categorias;
-  const recCats = DATA.receitas.categorias;
+  
+  const despCats = getFilteredCategories('despesas');
+  const recCats = getFilteredCategories('receitas');
+
+  // Ordena por valor decrescente
+  const sortedDesp = Object.entries(despCats).sort((a,b)=>b[1]-a[1]);
+  const sortedRec = Object.entries(recCats).sort((a,b)=>b[1]-a[1]);
+
+  const despLabels = sortedDesp.map(e=>e[0]);
+  const despValues = sortedDesp.map(e=>e[1]);
+  const recLabels = sortedRec.map(e=>e[0]);
+  const recValues = sortedRec.map(e=>e[1]);
+
+  const totalDesp = despValues.reduce((a,b)=>a+b, 0);
+  const totalRec = recValues.reduce((a,b)=>a+b, 0);
+
+  const labelPeriodo = (currentMonth !== 'all')
+    ? `no mês ${currentMonth}`
+    : (currentYear === 'all' ? 'acumulado no período analisado' : `no ano de ${currentYear}`);
+
+  const descDesp = document.getElementById('descDespCat');
+  if (descDesp) descDesp.innerHTML = `Total ${labelPeriodo} (<b>${fmtBRL2(totalDesp)}</b>)`;
+
+  const descRec = document.getElementById('descRecCat');
+  if (descRec) descRec.innerHTML = `Total ${labelPeriodo} (<b>${fmtBRL2(totalRec)}</b>)`;
 
   if (charts.despCat) charts.despCat.destroy();
   charts.despCat = new Chart(document.getElementById('chartDespCat').getContext('2d'), {
     type:'bar',
     data:{
-      labels: Object.keys(despCats),
-      datasets:[{data: Object.values(despCats), backgroundColor: Object.keys(despCats).map((_,i)=>PALETTE[i%PALETTE.length]), borderRadius:4}]
+      labels: despLabels,
+      datasets:[{data: despValues, backgroundColor: despLabels.map((_,i)=>PALETTE[i%PALETTE.length]), borderRadius:4}]
     },
     options:{
       indexAxis:'y', responsive:true, maintainAspectRatio:false,
@@ -270,8 +323,8 @@ function renderCategoryCharts(){
   charts.recCat = new Chart(document.getElementById('chartRecCat').getContext('2d'), {
     type:'doughnut',
     data:{
-      labels: Object.keys(recCats),
-      datasets:[{data: Object.values(recCats), backgroundColor: Object.keys(recCats).map((_,i)=>PALETTE[i%PALETTE.length]), borderColor:'#161d2e', borderWidth:2}]
+      labels: recLabels,
+      datasets:[{data: recValues, backgroundColor: recLabels.map((_,i)=>PALETTE[i%PALETTE.length]), borderColor:'#161d2e', borderWidth:2}]
     },
     options:{
       responsive:true, maintainAspectRatio:false,
@@ -310,10 +363,40 @@ function renderSubcatTable(tbodySelector, rows, totalAll, searchTerm, sortState)
 }
 
 function renderTables(){
-  const despRows = DATA.despesas.subcategorias.map(r=>({...r, pct: r.total/DATA.despesas.total*100}));
-  const recRows = DATA.receitas.subcategorias.map(r=>({...r, pct: r.total/DATA.receitas.total*100}));
-  renderSubcatTable('#tableDesp tbody', despRows, DATA.despesas.total, document.getElementById('searchDesp').value, despSort);
-  renderSubcatTable('#tableRec tbody', recRows, DATA.receitas.total, document.getElementById('searchRec').value, recSort);
+  let despRows, recRows, totalDespTable, totalRecTable;
+
+  if (currentYear === 'all') {
+    despRows = DATA.despesas.subcategorias.map(r=>({...r, pct: r.total/DATA.despesas.total*100}));
+    recRows = DATA.receitas.subcategorias.map(r=>({...r, pct: r.total/DATA.receitas.total*100}));
+    totalDespTable = DATA.despesas.total;
+    totalRecTable = DATA.receitas.total;
+  } else {
+    despRows = DATA.despesas.subcategorias
+      .map(r => {
+        const v = r.por_ano ? (r.por_ano[currentYear] || 0) : 0;
+        return { ...r, total: v };
+      })
+      .filter(r => r.total > 0);
+    totalDespTable = despRows.reduce((a,b)=>a+b.total, 0) || 1;
+    despRows = despRows.map(r => ({ ...r, pct: (r.total / totalDespTable) * 100 }));
+
+    recRows = DATA.receitas.subcategorias
+      .map(r => {
+        const v = r.por_ano ? (r.por_ano[currentYear] || 0) : 0;
+        return { ...r, total: v };
+      })
+      .filter(r => r.total > 0);
+    totalRecTable = recRows.reduce((a,b)=>a+b.total, 0) || 1;
+    recRows = recRows.map(r => ({ ...r, pct: (r.total / totalRecTable) * 100 }));
+  }
+
+  const badge = document.getElementById('badgeTablePeriodo');
+  if (badge) {
+    badge.textContent = (currentYear === 'all') ? 'Todos os Anos' : `Ano ${currentYear}`;
+  }
+
+  renderSubcatTable('#tableDesp tbody', despRows, totalDespTable, document.getElementById('searchDesp').value, despSort);
+  renderSubcatTable('#tableRec tbody', recRows, totalRecTable, document.getElementById('searchRec').value, recSort);
 }
 
 function renderMensalTable(){
@@ -369,6 +452,8 @@ function renderAll(){
   try { renderKPIs(); } catch(e){ console.error('renderKPIs', e); }
   try { renderMensalChart(); } catch(e){ console.error('renderMensalChart', e); }
   try { renderMensalTable(); } catch(e){ console.error('renderMensalTable', e); }
+  try { renderCategoryCharts(); } catch(e){ console.error('renderCategoryCharts', e); }
+  try { renderTables(); } catch(e){ console.error('renderTables', e); }
 }
 
 function safe(fn, label){

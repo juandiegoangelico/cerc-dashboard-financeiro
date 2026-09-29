@@ -119,12 +119,12 @@
   <div class="grid2b">
     <div class="panel">
       <h3>Despesas por Categoria</h3>
-      <div class="desc">Total acumulado no período analisado (R$ __TOTAL_DESPESAS__)</div>
+      <div class="desc" id="descDespCat">Total acumulado no período analisado (R$ __TOTAL_DESPESAS__)</div>
       <div class="chartbox"><canvas id="chartDespCat"></canvas></div>
     </div>
     <div class="panel">
       <h3>Receitas por Categoria</h3>
-      <div class="desc">Total acumulado no período analisado (R$ __TOTAL_RECEITAS__)</div>
+      <div class="desc" id="descRecCat">Total acumulado no período analisado (R$ __TOTAL_RECEITAS__)</div>
       <div class="chartbox"><canvas id="chartRecCat"></canvas></div>
     </div>
   </div>
@@ -133,6 +133,7 @@
     <div class="tabs">
       <button class="tab-btn active" data-tab="desp">Detalhe de Despesas</button>
       <button class="tab-btn" data-tab="rec">Detalhe de Receitas</button>
+      <span class="badge" id="badgeTablePeriodo" style="margin-left:auto;align-self:center;">Todos os Anos</span>
     </div>
 
     <div class="tab-panel active" id="tab-desp">
