@@ -1,37 +1,70 @@
-# Dashboard Financeiro — CERC
+# Dashboard Financeiro — CERC (12/2014 a 10/2025)
 
-Dashboard interativo (HTML autossuficiente, sem dependências externas) para análise financeira mensal e anual de um condomínio, preparado para uso do Conselho Fiscal.
+Dashboard interativo autossuficiente (HTML/JS com Chart.js embutido) para análise contábil, evolução financeira e prestação de contas do Condomínio Edifício Residencial CERC, preparado para o Conselho Fiscal e Administração.
 
-## Uso
+---
 
-Baixe `index.html` e abra diretamente no navegador (duplo-clique) — não precisa de servidor, internet ou instalação. Todos os dados e bibliotecas (Chart.js) estão embutidos no próprio arquivo.
+## 🚀 Como Visualizar
+Basta abrir o arquivo **`index.html`** diretamente em qualquer navegador web (Google Chrome, Safari, Edge, Firefox).
+* **Sem dependências externas:** funciona 100% offline, sem necessidade de internet, servidor web ou instalação de pacotes.
+* **Portabilidade total:** dados consolidados e bibliotecas visuais estão compilados dentro do próprio arquivo.
 
-## Funcionalidades
+---
 
-- KPIs de Receitas, Despesas, Resultado e Saldo (Caixa+Bancos), recalculados por período
-- Filtro por ano e por mês específico, com navegação ◀ ▶ e comparação percentual com o mês anterior
-- Evolução mensal (receitas x despesas x saldo) e consolidado anual
-- Breakdown de despesas e receitas por categoria e subcategoria, com busca e ordenação
-- Tabela mensal completa (saldo anterior, receitas, despesas, saldo atual)
+## 📊 Funcionalidades do Dashboard
+- **Filtros Temporais Dinâmicos:** visualização do consolidado geral (todo o período), por ano específico (2015 a 2025) ou mês a mês (131 competências).
+- **Indicadores Chave (KPIs):** Receitas, Despesas, Resultado Operacional e Saldo Final recalculados instantaneamente com comparativo em relação ao período anterior.
+- **Gráficos Interativos:**
+  - Evolução temporal de receitas, despesas e saldo bancário.
+  - Distribuição e representatividade de receitas e despesas por categoria (rosca e barras horizontais dinâmicas por ano/mês).
+- **Detalhamento por Subcategoria:** tabela interativa com ordenação, busca e detalhamento dos gastos por competência selecionada.
+- **DRE Mensal Completa:** extrato contábil contendo Saldo Inicial, Entradas, Saídas e Saldo Final mês a mês.
 
-## Metodologia e integridade dos dados
+---
 
-Os valores foram reconstruídos lançamento-a-lançamento a partir dos demonstrativos mensais originais, respeitando a hierarquia categoria/subcategoria de cada demonstrativo para evitar dupla contagem de subtotais. Onde há divergência conhecida frente ao total oficial de algum mês, isso é sinalizado no próprio dashboard (rodapé e nota de integridade).
+## 🔍 Auditoria Contábil e Integridade dos Dados
+Durante a auditoria técnica da base histórica (131 meses), foram identificadas e corrigidas as seguintes divergências:
 
-Nomes identificando o condomínio, síndico, administradora e unidades foram removidos deste repositório.
+1. **Reconciliação Contábil Completa (100% dos meses):**
+   - Garantida a equação fundamental: `Saldo Atual = Saldo Anterior + Receitas - Despesas`.
+   - Ajustadas descontinuidades em `01/2016`, `06/2016` e `08/2024`.
+2. **Recuperação de Receitas Omitidas:**
+   - **04/2020:** Adicionada receita de **R$ 12.194,86** (competência que constava zerada no demonstrativo consolidado).
+   - **08/2025:** Adicionada receita de **R$ 1.800,00** (abatimento de antecipação não escriturado).
+3. **Higienização da Planilha Geral:**
+   - **Deduplicação:** Remoção de 341 lançamentos duplicados (ex.: competência `04/2024` com registros quadruplicados).
+   - **Reclassificação:** 1.646 despesas operacionais cadastradas incorretamente com o tipo `SALDO ANTERIOR` foram corrigidas para `DESPESAS`.
+   - **Anonimização:** Adequação de descrições para conformidade e privacidade.
 
-## Estrutura
+---
 
-- `index.html` — dashboard completo autossuficiente (abrir este arquivo)
-- `dashboard_data.json` — base de dados saneada e auditada (131 meses)
-- `app.js` — lógica do dashboard e renderização de gráficos
-- `chartjs_lib.js` — biblioteca Chart.js v4.4.4 offline
-- `template_full.html` — template estrutural do dashboard
-- `scripts/` — automações do projeto:
-  - `build_dashboard.py` — compilador do dashboard final `index.html`
-  - `sanitize_spreadsheet.py` — saneador e dedupicador da planilha original
-- `dados_sanitizados/` — bases auditadas geradas para exportação:
-  - `Planilha_Financeira_CERC_Sanitizada.xlsx` — pasta de trabalho completa (4 abas)
-  - `Lancamentos_Detalhados_Limpos.csv` — lançamentos dedupicados e reclassificados
-  - `Resumo_Mensal_Limpo.csv` — série mensal histórica auditada (131 meses)
+## 📁 Estrutura do Repositório
 
+```text
+cerc-dashboard-financeiro/
+├── index.html                   # Dashboard compilado pronto para uso
+├── dashboard_data.json          # Matriz de dados auditada e reconciliada
+├── template_full.html           # Template base do dashboard
+├── app.js                       # Lógica de renderização reativa e gráficos
+├── scripts/
+│   ├── build_dashboard.py       # Compila template_full + app.js + data -> index.html
+│   └── sanitize_spreadsheet.py  # Pipeline de limpeza e deduplicação da planilha bruta
+└── dados_sanitizados/
+    ├── Planilha_Financeira_CERC_Sanitizada.xlsx # Base completa tratada em Excel
+    ├── Lancamentos_Detalhados_Limpos.csv       # Extrato de todos os 5.215 lançamentos
+    └── Resumo_Mensal_Limpo.csv                 # Resumo contábil dos 131 meses
+```
+
+---
+
+## 🛠️ Manutenção e Recompilação
+
+Caso novos lançamentos sejam adicionados ou os scripts sejam executados:
+
+```bash
+# Para higienizar uma nova exportação da planilha bruta:
+python3 scripts/sanitize_spreadsheet.py
+
+# Para reconstruir o dashboard autossuficiente (index.html):
+python3 scripts/build_dashboard.py
+```
